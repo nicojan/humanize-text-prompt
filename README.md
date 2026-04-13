@@ -1,6 +1,6 @@
 # humanize-text-prompt
 
-A prompt you paste into any LLM to make AI-generated text sound like a person wrote it. The rules come from peer-reviewed research, not guesswork.
+A prompt you paste into any LLM to make AI-generated text sound like a person wrote it. Every rule traces back to peer-reviewed research.
 
 ## What this is
 
