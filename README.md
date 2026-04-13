@@ -10,7 +10,7 @@ A prompt you paste into any LLM to make AI-generated text sound like a person wr
 
 This is not a detector. It does not classify text as human or AI.
 
-It is an editing guide. The goal is writing that reads better: more varied, more specific, less formulaic. If your institution or jurisdiction requires you to disclose AI involvement, use this tool alongside that disclosure.
+It is an editing guide. The goal is writing that reads better: more varied and specific, less like it came off an assembly line. If your institution or jurisdiction requires you to disclose AI involvement, use this tool alongside that disclosure.
 
 ## Quick start
 
@@ -28,9 +28,9 @@ You get back an edited version with AI-correlated patterns reduced.
 |---|---|---|
 | **Vocabulary** | AI-overused words, nominalization, abstract nouns, adverb gaps, uniform hedging | "delve" becomes "explore"; "the implementation of" becomes "we implemented" |
 | **Structure** | Sentence length sameness, syntactic rigidity, too many lists, dependency distance, punctuation variety | Lengths from fragments to 25+ words; no three-item list stacking |
-| **Tone** | Flattened sentiment, readability mismatch, narrow emotional range | Allow frustration and skepticism; match grade level to the audience |
+| **Tone** | Flattened sentiment, readability mismatch, narrow emotional range, missing negative affect | Allow frustration and skepticism; match grade level to the audience |
 | **Discourse** | Formulaic transitions, over-explicit cohesion, coordination vs. subordination | Drop "Furthermore"; use "because" instead of "and" |
-| **Texture** | Cognitive load artifacts, self-monitoring traces, domain vocabulary | Self-corrections, uneven idea development, idiomatic language |
+| **Texture** | Cognitive load artifacts, self-monitoring traces, lexical retrieval signatures, domain vocabulary | Self-corrections, uneven idea development |
 
 ## Sources
 
@@ -74,27 +74,25 @@ Findings were sorted into six layers: vocabulary, structure, tone, discourse, te
 
 For each confirmed pattern, we wrote an actionable rewriting rule. Each rule says what to look for, how to change it, and, critically, how to apply the change unevenly. Uniform "humanizing" is itself an AI signal.
 
-The anti-pattern examples show concrete before-and-after transformations rather than abstract advice. The caveats section spells out where the rules break down: ESL contexts, genre differences, model evolution, and the paradox of consistent inconsistency.
+The anti-pattern examples show concrete before-and-after transformations. No abstract advice. The caveats section spells out where the rules break down: ESL contexts, genre differences, model evolution, and the paradox of consistent inconsistency.
 
 ## Key research findings
 
-**Lexical diversity.** AI text has lower Type-Token Ratios, fewer hapax legomena, and fewer unique words than human text (Ardeshirifar, 2025; Muñoz-Ortiz et al., 2024). That is the basis for the vocabulary diversity rules.
+**Lexical diversity.** AI text has lower Type-Token Ratios, fewer hapax legomena, fewer unique words (Ardeshirifar, 2025; Muñoz-Ortiz et al., 2024). The vocabulary diversity rules exist because of this.
 
-**Part-of-speech distribution.** AI overuses auxiliary verbs, determiners, coordinating conjunctions, symbols, and numbers. Humans use more nouns, adjectives, proper nouns, adverbs, and punctuation (Muñoz-Ortiz et al., 2024; Ardeshirifar, 2025).
+**Part-of-speech distribution.** AI overuses auxiliary verbs, determiners, coordinating conjunctions, symbols, and numbers. Humans lean harder on nouns, adjectives, adverbs, and punctuation (Muñoz-Ortiz et al., 2024; Ardeshirifar, 2025). The gap is surprisingly consistent across datasets.
 
-**Sentence length variance.** Human writers show wider sentence-length distributions with higher standard deviation. AI clusters around shorter, uniform lengths (Ardeshirifar, 2025; Terčon & Dobrovoljc, 2025). This is why the burstiness rules exist.
+Human writers show wider sentence-length distributions with higher standard deviation; AI clusters around shorter, uniform lengths (Ardeshirifar, 2025; Terčon & Dobrovoljc, 2025). That variance is what the burstiness rules try to recreate.
 
-**Dependency length.** Humans naturally keep syntactically linked words close together; LLMs do this less well (Muñoz-Ortiz et al., 2024).
+**Dependency length.** Humans naturally keep syntactically linked words close together. LLMs are worse at this (Muñoz-Ortiz et al., 2024).
 
-**Sentiment neutrality.** AI skews neutral-to-positive and suppresses negative emotions: anger, fear, disgust (Muñoz-Ortiz et al., 2024). The tone rules push back against that flattening.
+AI skews neutral-to-positive and suppresses negative emotions like anger and disgust (Muñoz-Ortiz et al., 2024). The tone rules push back against that flattening.
 
-**Stylometric clustering.** In creative writing, LLM outputs form tight, uniform clusters while human texts scatter broadly, as measured by Burrows' Delta (O'Sullivan, 2025). This is the strongest argument for stylistic individuality over rule-following.
+**Stylometric clustering.** In creative writing, LLM outputs form tight, uniform clusters while human texts scatter broadly, as measured by Burrows' Delta (O'Sullivan, 2025). If there is one finding that justifies the whole prompt, it is this one: stylistic individuality matters more than any single rule.
 
-**Discourse markers.** AI uses fewer but more repetitive discourse markers and fewer modal or epistemic markers (Terčon & Dobrovoljc, 2025).
+AI uses fewer but more repetitive discourse markers, and fewer modal or epistemic markers (Terčon & Dobrovoljc, 2025). Nominalization rates run higher too (Terčon & Dobrovoljc, 2025), which is why the prompt pushes verb-led constructions.
 
-**Nominalization.** AI text shows higher nominalization rates (Terčon & Dobrovoljc, 2025). The verb-led construction rules address this directly.
-
-**Readability.** AI produces text at a higher grade level than human text for the same content type (Terčon & Dobrovoljc, 2025; Opara, 2025). The readability calibration rules bring this back in line.
+**Readability.** AI writes at a higher grade level than humans do for the same content type (Terčon & Dobrovoljc, 2025; Opara, 2025). The calibration rules address that mismatch.
 
 ## Limitations
 
@@ -102,11 +100,11 @@ The flagged vocabulary reflects models through 2025: GPT-3.5, GPT-4, LLaMA, Falc
 
 Detection features break down under domain shift. Rules tuned for blog posts may misfire on academic prose. Ardeshirifar (2025) found a 34.67 percentage point F1 drop in cross-dataset testing.
 
-Newer, larger models are converging on human-like word distributions while staying detectable through structural uniformity (O'Sullivan, 2025; Przystalski et al., 2024). Weight structural and psycholinguistic rules higher than word substitution when editing frontier model output.
+Newer, larger models are converging on human-like word distributions, but structural uniformity still gives them away (O'Sullivan, 2025; Przystalski et al., 2024). Weight structural and psycholinguistic rules higher than word substitution when editing frontier model output.
 
-Some patterns flagged here as AI-correlated are normal in certain human contexts, particularly academic and journalistic writing. Formulaic transitions, neutral tone, and standardized grammar are conventions in those genres, not AI tells.
+Some patterns flagged here as AI-correlated are normal in certain human contexts, particularly academic and journalistic writing. Formulaic transitions and neutral tone are conventions in those genres. Keep that in mind before over-editing.
 
-These rules describe statistical tendencies. Text that follows every rule can still be flagged. The goal is to shift the probability distribution, not to guarantee any particular outcome.
+These rules describe statistical tendencies. Text that follows every rule can still be flagged. The goal is to shift the probability distribution toward human-like patterns.
 
 ## Contributing
 
