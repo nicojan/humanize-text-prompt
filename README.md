@@ -1,6 +1,6 @@
 # humanize-text-prompt
 
-A prompt you paste into any LLM to make AI-generated text sound like a person wrote it. Every rule traces back to peer-reviewed research.
+A prompt you paste into any LLM to make AI-generated text sound like a person wrote it. The rules are grounded in peer-reviewed research on how AI text differs from human text, extended with patterns found by auditing current-model output.
 
 ## What this is
 
@@ -26,11 +26,11 @@ You get back an edited version with AI-correlated patterns reduced.
 
 | Layer | What it addresses | Examples |
 |---|---|---|
-| **Vocabulary** | AI-overused words, nominalization, abstract nouns, adverb gaps, uniform hedging | "delve" becomes "explore"; "the implementation of" becomes "we implemented" |
-| **Structure** | Sentence length sameness, syntactic rigidity, too many lists, dependency distance, punctuation variety | Lengths from fragments to 25+ words; no three-item list stacking |
+| **Vocabulary** | AI-overused words, nominalization, abstract nouns, adverb gaps, uniform hedging, credibility insistence | "delve" becomes "dig into"; "the implementation of" becomes "we implemented"; three uses of "real" become one |
+| **Structure** | Sentence length variance, the antithesis reflex, section-to-section variation, syntactic rigidity, too many lists, dependency distance, punctuation variety | "It's not X, it's Y" becomes a direct claim; style shifts between opening, middle, and close; no three-item list stacking |
 | **Tone** | Flattened sentiment, readability mismatch, narrow emotional range, missing negative affect | Allow frustration and skepticism; match grade level to the audience |
 | **Discourse** | Formulaic transitions, over-explicit cohesion, coordination vs. subordination | Drop "Furthermore"; use "because" instead of "and" |
-| **Texture** | Cognitive load artifacts, self-monitoring traces, lexical retrieval signatures, domain vocabulary | Self-corrections, uneven idea development |
+| **Texture** | Cognitive load artifacts, self-monitoring traces, abstraction-as-agent, domain vocabulary | Self-corrections; "the order mattered" gets a human subject |
 
 ## Sources
 
@@ -39,6 +39,12 @@ The rules draw on the following peer-reviewed papers, reference documents, and c
 ### Peer-reviewed research
 
 Ardeshirifar, S. (2025). Comparing handcrafted and deep learning approaches for detecting AI-generated text: Performance, generalization, and linguistic insights. *AI and Ethics*, *5*, 4197–4209. https://doi.org/10.1007/s43681-025-00700-2
+
+Kobak, D., et al. (2025). Delving into ChatGPT usage in academic writing through excess vocabulary. *Science Advances*.
+
+Krishna, K., Song, Y., Karpinska, M., Wieting, J., & Iyyer, M. (2023). Paraphrasing evades detectors of AI-generated text, but retrieval is an effective defense. In *Advances in Neural Information Processing Systems (NeurIPS 36)*.
+
+Kuznetsov, K., et al. (2025). *arXiv preprint*, arXiv:2501.19301. [On the flow-level and section-to-section features that still separate AI from human text after models match human surface statistics.]
 
 Muñoz-Ortiz, A., Gómez-Rodríguez, C., & Vilares, D. (2024). Contrasting linguistic patterns in human and LLM-generated news text. *Artificial Intelligence Review*, *57*(10), 265. https://doi.org/10.1007/s10462-024-10903-2
 
@@ -68,7 +74,9 @@ The psycholinguistic layer builds on Cognitive Load Theory (Sweller, 1988), meta
 
 ## How the rules were built
 
-Nine papers from 2023 to 2025 provided the quantitative foundation. They cover lexical diversity, part-of-speech distribution, syntactic complexity, dependency structure, sentiment, n-gram patterns, and stylometric clustering.
+Peer-reviewed and preprint studies from 2023 to 2025 provided the quantitative foundation. They cover lexical diversity, part-of-speech distribution, syntactic complexity, dependency structure, sentiment, n-gram patterns, and stylometric clustering.
+
+A second stream comes from auditing current-model output directly. Some tells (the two-sentence antithesis flip, reality-insistence density) show up in frontier-model writing that passes the word-level checks clean. Where these overlap with the research, such as the contrastive-pattern work of Muñoz-Ortiz et al. (2024), the citation is noted; where they are observational, the prompt treats them as candidate rules rather than settled findings.
 
 Findings were sorted into six layers: vocabulary, structure, tone, discourse, texture, and anti-patterns. Patterns confirmed by more than one independent research group got priority.
 
@@ -89,6 +97,8 @@ Human writers show wider sentence-length distributions with higher standard devi
 AI skews neutral-to-positive and suppresses negative emotions like anger and disgust (Muñoz-Ortiz et al., 2024). The tone rules push back against that flattening.
 
 **Stylometric clustering.** In creative writing, LLM outputs form tight, uniform clusters while human texts scatter broadly, as measured by Burrows' Delta (O'Sullivan, 2025). If there is one finding that justifies the whole prompt, it is this one: stylistic individuality matters more than any single rule.
+
+**Flow and section-to-section variation.** As models improve, they close the gap on word-order-independent surface statistics such as part-of-speech distribution and readability, showing little measurable difference from human writing. Two families of feature still diverge: the flow of the text (token-level unpredictability and how content shifts across it) and cross-segment variation, since humans modulate their style between a document's opening, body, and close while a model holds one flat fingerprint throughout (Kuznetsov et al., 2025). The arms race points the same way: paraphrasing evades most detectors (Krishna et al., 2023), and reliable evasion works by destroying exactly these flow features. The practical reading is that word substitution has a low ceiling, so the structural, discourse, and section-to-section rules carry more weight for frontier-model output.
 
 AI uses fewer but more repetitive discourse markers, and fewer modal or epistemic markers (Terčon & Dobrovoljc, 2025). Nominalization rates run higher too (Terčon & Dobrovoljc, 2025), which is why the prompt pushes verb-led constructions.
 

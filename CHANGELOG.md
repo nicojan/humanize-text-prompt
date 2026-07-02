@@ -1,5 +1,30 @@
 # Changelog
 
+## 1.1.0 — 2026-07-02
+
+Sync with the revised humanizer rule set. The update foregrounds where the signal now lives (flow and section-to-section variation) and adds the frontier-model tells that word-level checks miss.
+
+### Added
+
+- **Core-principle reframe**: local flow and section-to-section variation are the durable signals; lexical substitution is necessary hygiene with a low ceiling, and newer models are already crossing it (Kuznetsov et al., 2025).
+- **Kill the antithesis reflex**: the two-sentence copula flip ("...is not Y. It is Z."), the hedged aphorism, the disclaimer reversal, the verb mirror, and the pronouncement frames (wh-cleft, thesis opener, maxim closer), consolidated into two rules.
+- **Cut credibility insistence**: density of *real* / *actual* / *genuine* / *truly*, with the reality assertion replaced by the specific that earned it.
+- **Vary style from section to section**: the cross-segment signal, treated as its own structural rule.
+- **Give actions a real agent**: abstraction-as-agent, where an abstract noun holds an agentive verb.
+- **"Before you return the text" self-check**: a verification pass, split into Tier-1 tells to eliminate and Tier-2 variation to confirm. This ports the write→check→fix loop to a no-checker context; its value is for rule adherence, not a separate human-likeness gain.
+
+### Changed
+
+- Expanded the flagged vocabulary to the full current lists: 28 verbs (added underscore, surpass, boast, foster, enhance, optimize, harness, spearhead, catalyze, and others), 18 adjectives, 8 nouns, 16 transitions, 6 qualifiers.
+- Sentence-length guidance now targets low variance, not a target mean.
+- The em-dash rule notes that em-dash rate is model-specific: the ban stands, but absence is not evidence of human authorship, and presence alone is weak evidence.
+- Removed em-dashes from the prompt's own prose so it obeys the rule it teaches.
+- README provenance line now reflects both peer-reviewed research and in-the-wild auditing.
+
+### Sources added
+
+- Kobak et al. (2025, *Science Advances*), Krishna et al. (2023, NeurIPS), Kuznetsov et al. (2025, arXiv:2501.19301).
+
 ## 1.0.0 — 2026-04-13
 
 ### Initial release
