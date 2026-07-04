@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.0 — 2026-07-04
+
+Sync with the humanizer rule set: adds the noun-participle fragment tell, caught in an in-the-wild review of prose that had passed the checker clean.
+
+### Added
+
+- **Cut the noun-participle fragment**: the verbless "Noun, past-participle." sentence ("The same board, rebuilt."), the past-participle sibling of the trailing "-ing" tail. Rewrite it into a full sentence or fold the participle into the neighboring one; a participle inside a full clause is left alone, so legitimate reduced relatives are not touched.
+
 ## 1.1.0 — 2026-07-02
 
 Sync with the revised humanizer rule set. The update foregrounds where the signal now lives (flow and section-to-section variation) and adds the frontier-model tells that word-level checks miss.

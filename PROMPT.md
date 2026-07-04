@@ -118,6 +118,10 @@ AI produces "That the system performed well is noteworthy." Human writers almost
 
 AI appends "-ing" tails that add interpretation without new information: "...contributing to the socio-economic development of the area and underscoring its enduring significance." If the participial clause can be deleted without losing a fact, delete it.
 
+### Cut the noun-participle fragment
+
+The past-participle cousin of the trailing "-ing" tail is a whole verbless sentence: a noun phrase, a comma, and a past participle standing in for a verb. "The same board, rebuilt." "The homepage, reimagined." "The whole system, rewritten." It reads as AI copy because it strikes a pose instead of making a claim. Give it a subject and a real verb ("We rebuilt the same board.") or fold the participle into the sentence beside it. This is only the fragment form; a participle inside a full sentence is fine ("The board, which we rebuilt, is live.").
+
 ### Replace periphrastic verbs with direct verbs
 
 - "is able to process" → "processes"
