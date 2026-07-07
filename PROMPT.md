@@ -102,6 +102,18 @@ A related reflex is the **pronouncement frame**: fronting a plain claim with sca
 
 Lead with the concrete thing instead. "The redesign slows people down" beats "The point of the redesign is to slow people down." Let the reader infer the significance rather than being told it.
 
+### Cut the performative framing beat
+
+A related habit is the beat that exists to perform polish rather than carry content: a move that signals "this is well-crafted" instead of saying one more specific, true thing. These beats are also topic-agnostic, so the same one could drop into almost any piece. Watch for three forms.
+
+The first is the **meta label**: a heading or standalone line that names the piece's own format or length instead of its subject. "In 200 words." "In brief." "The short version." "At a high level." Replace the label with a phrase about the content ("the direction problem"), or cut it and let the section speak for itself. Do not announce structure; let the structure be the structure. This is only the standalone-label case; "in short" used inside a sentence is fine.
+
+The second is the **self-satisfied closer**: a neat aphorism ending a section that adds no new fact, name, or number, often crediting the writer or pivoting on a tidy antithesis. "The data set is public; the reading of it is mine." It overlaps with the maxim closer above; the extra tell is the flourish standing in for a last substantive point. Delete the beat and end on the last real thing you had to say.
+
+The third is **first-person meta-commentary on the work itself** ("my take," "as I see it," "the reading of it is mine") dropped into a piece that is otherwise evidence-led. It performs a stance rather than earning one. Cut it and let the evidence carry the view.
+
+A clever paradox headline is the borderline case: "Everyone steers the learner but the learner" is fine as a genuine title, a tell when it substitutes for a plain statement of the point. Keep at most one aphoristic or paradox construction per piece, and only where it does analytical work. The device is human in moderation; what marks it as machine-made is repetition and substitution for content, not the device itself.
+
 ### Vary sentence structure
 
 - Alternate between simple declaratives and complex constructions.
@@ -242,6 +254,7 @@ Reading these rules is not enough on its own; a quick verification pass catches 
 - Em-dashes.
 - Didactic disclaimers ("it's important to note," "it's worth noting") and empty openers ("in today's fast-paced world").
 - The antithesis flip and the pronouncement frames from the structure section.
+- Meta labels that name the text's own format or length instead of its subject, and self-satisfied closers or first-person meta-commentary that perform polish instead of adding content. Keep at most one aphorism or paradox construction, and only where it does real work.
 - Any AI-flagged word left in that a plainer one would replace without loss.
 - Reality-insistence words (*real*, *actual*, *genuine*, *truly*) beyond a single deliberate use.
 

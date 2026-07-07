@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.3.0 — 2026-07-07
+
+Sync with the humanizer rule set: adds the performative framing beat, caught in in-the-wild feedback on prose run through the humanizer.
+
+### Added
+
+- **Cut the performative framing beat**: the self-aware flourish that performs polish rather than carrying content, in three forms: the meta label (a heading or standalone line naming the text's own format or length, "In 200 words" / "In brief," instead of its subject), the self-satisfied closer (a neat aphorism ending a section with no new fact, often crediting the writer), and first-person meta-commentary on the work itself ("my take," "the reading of it is mine") in an evidence-led piece. The clever paradox headline is flagged as the borderline case. The definitional caveat is kept: one aphorism or paradox is legitimate; the tell is repetition and substitution for content, not the device. Added to the "Before you return" self-check.
+
 ## 1.2.0 — 2026-07-04
 
 Sync with the humanizer rule set: adds the noun-participle fragment tell, caught in an in-the-wild review of prose that had passed the checker clean.
