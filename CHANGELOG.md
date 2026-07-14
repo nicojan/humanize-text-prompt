@@ -1,5 +1,27 @@
 # Changelog
 
+## 1.4.0 — 2026-07-13
+
+Sync with the humanizer rule set: adds three tells surfaced by a web survey of current (2025–2026) AI-writing signs, cross-checked against existing coverage (humanizer BS-023/024/025 + lexical additions).
+
+### Added
+
+- **Cut unsolicited reassurance**: the therapeutic second-person frame ("You're not alone," "You're not imagining it," "It's not just you"), the most-cited *new* 2026 tell, incongruous in most content. Cut it or make the reassurance concrete.
+- **Cut the question-fragment beat**: the short noun-phrase-fragment question fired off as a setup and answered in the next breath ("The best part? It's completely free."). State it as a declarative; an ordinary question in the flow is fine.
+- **Leave friction in the argument**: excessive coherence and tidiness (every example fits, every thread resolves, nothing left open) is itself a tell. Keep the caveat, the partly-open question, the example that only mostly fits.
+- Both new tells added to the "Before you return" self-check.
+
+### Changed
+
+- **Vague authorities** (anti-pattern 2) expanded to include the epistemic-authority frame ("studies show," "research suggests," "experts agree," "it is widely believed," "many argue"), with the fix being a named, cited source; a named/specific reference is explicitly fine.
+- **Travel-brochure puffery** (anti-pattern 8) adds "bustling" and "hidden gem."
+- Transition drop-list adds "Notably," "Importantly," "Consequently."
+
+### Rejected (documented for the record)
+
+- Curly/smart-quote detection: a tooling artifact, not an author signal (raw human web text is often curly, raw model output often straight; modern model UIs emit curly quotes anyway). It discriminates nothing reliable, so it is deliberately not a rule.
+- A bare *quiet* word-flag: an ordinary word whose supposed tell is register/collocation, not the token; the low-ceiling surface-swap trap.
+
 ## 1.3.0 — 2026-07-07
 
 Sync with the humanizer rule set: adds the performative framing beat, caught in in-the-wild feedback on prose run through the humanizer.

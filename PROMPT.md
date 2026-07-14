@@ -114,6 +114,10 @@ The third is **first-person meta-commentary on the work itself** ("my take," "as
 
 A clever paradox headline is the borderline case: "Everyone steers the learner but the learner" is fine as a genuine title, a tell when it substitutes for a plain statement of the point. Keep at most one aphoristic or paradox construction per piece, and only where it does analytical work. The device is human in moderation; what marks it as machine-made is repetition and substitution for content, not the device itself.
 
+### Cut the question-fragment beat
+
+Another frontier-model tic is the short question fired off as a setup, then answered in the next breath: "The best part? It's completely free." "The result? A total win." "The catch? You pay upfront." One can land as genuine emphasis, but repeated, the setup-and-payoff rhythm becomes a fingerprint. State the point as a declarative. "It's completely free" says it without the drumroll. This is the noun-phrase-fragment question specifically ("The best part?"); an ordinary question in the flow of the prose is fine.
+
 ### Vary sentence structure
 
 - Alternate between simple declaratives and complex constructions.
@@ -175,6 +179,10 @@ Frustration, skepticism, disappointment, and concern are human. AI softens them.
 
 Instead of "This was a deeply frustrating experience," show frustration building through increasingly specific detail and shorter sentences. Use emotion words sparingly but precisely.
 
+### Cut unsolicited reassurance
+
+A recent habit, strongest in chat-tuned models, is to reassure the reader without being asked: "You're not alone." "You're not imagining it." "You're not broken." "It's not just you." Dropped into a business post, a doc, or an essay, it reads as therapeutic filler that performs empathy in place of saying anything. Cut it, or replace it with the specific thing worth saying. If the piece genuinely calls for reassurance, make it concrete ("plenty of teams hit this same wall in month two") rather than a canned "you're not X" formula.
+
 ### Match readability to audience
 
 AI writes at a uniformly elevated grade level regardless of audience. Blog posts: Flesch Reading Ease 60-70. Professional reports: 40-50. Vary readability within a document: simplify explanatory passages, let analytical passages run denser.
@@ -187,7 +195,7 @@ AI almost never uses them. In informal content, a rare exclamation mark signals 
 
 ### Remove or vary transitions
 
-Not every paragraph needs a transition. AI over-signals connections. Drop "Furthermore," "Additionally," "Moreover." Replace with informal transitions: "So," "Now," "Here's the thing," "The catch is." Or just start the new point; the reader follows the logic.
+Not every paragraph needs a transition. AI over-signals connections. Drop "Furthermore," "Additionally," "Moreover," "Notably," "Importantly," "Consequently." Replace with informal transitions: "So," "Now," "Here's the thing," "The catch is." Or just start the new point; the reader follows the logic.
 
 ### Prefer subordination over coordination
 
@@ -230,18 +238,22 @@ Replace generic formal words with vocabulary that reflects the author's actual e
 
 Give more space to the ideas that matter most. AI gives equal airtime to every point. Allow occasional asides. Leave some transitions implicit. Vary argument granularity: some points get detailed evidence, others are asserted and moved on from.
 
+### Leave friction in the argument
+
+AI argument is suspiciously tidy: every example fits, every thread resolves, nothing is left open. Real thinking has friction. Keep a caveat that complicates your own thesis, an example that only mostly fits, a question you raise but don't fully answer. A seamless, frictionless case is itself a tell. Don't sand off the roughness the topic actually has.
+
 ## 6. Anti-patterns to eliminate
 
 If you see any of these, rewrite them:
 
 1. **Significance puffery:** "marking a pivotal moment," "setting the stage for," "a broader movement." Strip editorializing. State what happened.
-2. **Vague authorities:** "researchers and conservationists," "efforts are ongoing," "a larger initiative." If you can't name them, don't assert their existence.
+2. **Vague authorities:** an appeal to an unnamed source, whether a group ("researchers and conservationists," "efforts are ongoing," "a larger initiative") or an epistemic frame that borrows credibility it never earns ("studies show," "research suggests," "experts agree," "it is widely believed," "many argue"). Name the specific study, person, or body and cite it. If you can't name them, drop the claim or state it as your own view. A named, specific reference ("a 2024 Stanford study of 16,000 workers found...") is fine.
 3. **Vocabulary clustering:** when "valuable insights," "highlight," "underscore," "showcasing," "intricate," and "interplay" appear together. Replace with the specific facts.
 4. **Antithesis and negative parallelism:** "not just X, but also Y" → simple conjunction. "It's not X, it's Y," including the two-sentence version ("...is not Y. It is Z."), → state the point directly. See "Kill the antithesis reflex" above for the full family.
 5. **Elegant variation:** rotating synonyms for the same concept to avoid repetition. Repeat the plain noun when clarity demands it.
 6. **Despite-challenges formula:** "Despite its success, X faces challenges, including... Despite these challenges, X remains..." Replace with specific problems and specific responses.
 7. **Didactic disclaimers:** "it's important to note," "it's worth noting," "it's crucial to remember." Cut the preamble, state the fact.
-8. **Travel-brochure puffery:** "nestled," "vibrant," "rich cultural heritage," "breathtaking," "fascinating glimpse." State geography and move on.
+8. **Travel-brochure puffery:** "nestled," "vibrant," "bustling," "rich cultural heritage," "breathtaking," "hidden gem," "fascinating glimpse." State geography and move on.
 9. **Nominalization chains:** "The implementation of the optimization of resource allocation" → "We optimized how resources were allocated."
 10. **Enumeration stacking:** Three consecutive three-item parallel lists. Vary list length, embed items in prose, add evaluative commentary.
 
@@ -255,6 +267,8 @@ Reading these rules is not enough on its own; a quick verification pass catches 
 - Didactic disclaimers ("it's important to note," "it's worth noting") and empty openers ("in today's fast-paced world").
 - The antithesis flip and the pronouncement frames from the structure section.
 - Meta labels that name the text's own format or length instead of its subject, and self-satisfied closers or first-person meta-commentary that perform polish instead of adding content. Keep at most one aphorism or paradox construction, and only where it does real work.
+- The unsolicited-reassurance frame ("You're not alone," "It's not just you") and the question-fragment beat ("The best part? ..."), unless the piece genuinely earns one.
+- Vague-authority appeals ("studies show," "experts agree," "it is widely believed") left without a named source.
 - Any AI-flagged word left in that a plainer one would replace without loss.
 - Reality-insistence words (*real*, *actual*, *genuine*, *truly*) beyond a single deliberate use.
 
