@@ -1,5 +1,26 @@
 # Changelog
 
+## 1.5.0 — 2026-07-25
+
+Sync with the humanizer rule set: adds the phrase-frame tells (humanizer BS-026..030) and a marketing/promotional lexicon surfaced by a 2026 survey of current phrase-frame tells, cross-checked against existing coverage.
+
+### Added
+
+- **Cut the frame-opener tics**: fixed openers that front a point with empty scaffolding — "When it comes to X," "In a world where / In an era of," "That's where X comes in," and the "plays a pivotal role in" template. Cut the preamble and state the claim.
+- **Manufactured-empathy opener**: "If you've ever struggled with..." folded into "Cut unsolicited reassurance." A canned second-person conditional bolted to the front of a piece; an ordinary conditional recalling a real shared experience ("If you've ever been to Paris...") is fine.
+- Both new tells added to the "Before you return" self-check.
+
+### Changed
+
+- Moderate-severity verbs add: unlock, unleash, embark, empower, elevate.
+- Moderate-severity adjectives add: invaluable, unwavering, ever-evolving.
+- High-severity nouns add: treasure trove, plethora, myriad.
+
+### Rejected (documented for the record)
+
+- Register-dependent openers ("Here's the thing," "Let's be honest") — common in genuine human casual prose; the low-ceiling surface trap. (The prompt already recommends "Here's the thing" as a *human* transition, which is why flagging it would be self-defeating.)
+- Legitimate high-frequency human discourse markers ("in other words," "that said," "to be clear").
+
 ## 1.4.0 — 2026-07-13
 
 Sync with the humanizer rule set: adds three tells surfaced by a web survey of current (2025–2026) AI-writing signs, cross-checked against existing coverage (humanizer BS-023/024/025 + lexical additions).

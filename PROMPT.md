@@ -22,13 +22,13 @@ These words appear at statistically elevated rates in AI text. Replace them with
 
 **High-severity verbs:** delve → dig into/examine; leverage → use/rely on; utilize → use; facilitate → help/enable; bolster → strengthen/support; showcase → show/display; garner → earn/attract; foster → encourage/build; enhance → improve/boost; elucidate → explain/clarify; revolutionize → change/reshape; synergize → combine/work together; underscore → show/point to.
 
-**Moderate-severity verbs:** navigate → work through/handle; streamline → simplify/tighten; endeavor → try/attempt; optimize → improve/fine-tune; spearhead → lead/drive; catalyze → trigger/spark; incentivize → encourage/reward; operationalize → put into practice; conceptualize → think through/frame; harness → use/tap/draw on; illuminate → explain/show; differentiate → distinguish/tell apart; refine → improve/tweak; surpass → beat/exceed; boast → has/offers.
+**Moderate-severity verbs:** navigate → work through/handle; streamline → simplify/tighten; endeavor → try/attempt; optimize → improve/fine-tune; spearhead → lead/drive; catalyze → trigger/spark; incentivize → encourage/reward; operationalize → put into practice; conceptualize → think through/frame; harness → use/tap/draw on; illuminate → explain/show; differentiate → distinguish/tell apart; refine → improve/tweak; surpass → beat/exceed; boast → has/offers; unlock → open up/make possible; unleash → release/set off; embark → start/begin; empower → let/enable/help; elevate → raise/lift/improve.
 
 **High-severity adjectives:** robust → strong/solid; cutting-edge → new/advanced (or cut); innovative → new/creative (or cut); seamless → smooth/easy; pivotal → key/central; transformative → significant (or cut); game-changing → significant (or cut); crucial → important/essential; holistic → complete/integrated; groundbreaking → new/first (or describe why); unparalleled → rare/exceptional (or cut).
 
-**Moderate-severity adjectives:** comprehensive → full/thorough; multifaceted → complex/layered; noteworthy → worth noting; meticulous → careful/detailed; intricate → complex/detailed; commendable → impressive/good; paramount → essential/most important.
+**Moderate-severity adjectives:** comprehensive → full/thorough; multifaceted → complex/layered; noteworthy → worth noting; meticulous → careful/detailed; intricate → complex/detailed; commendable → impressive/good; paramount → essential/most important; invaluable → valuable/a big help; unwavering → steady/firm; ever-evolving → changing/shifting (or cut).
 
-**High-severity nouns:** realm → area/field; tapestry → mix/blend (especially "rich tapestry"); landscape → field/scene (when metaphorical); synergy → cooperation; paradigm → model/approach; cornerstone → foundation/basis; linchpin → key part; testament → proof/sign.
+**High-severity nouns:** realm → area/field; tapestry → mix/blend (especially "rich tapestry"); landscape → field/scene (when metaphorical); synergy → cooperation; paradigm → model/approach; cornerstone → foundation/basis; linchpin → key part; testament → proof/sign; treasure trove → wealth/goldmine; plethora → plenty/many; myriad → many/countless.
 
 **High-severity phrases:** "That being said" → However/But; "At its core" → Fundamentally/Essentially; "To put it simply" → Simply put/In short; "This underscores the importance of" → This shows why; "A key takeaway is" → The main point is; "From a broader perspective" → When you zoom out; "In today's rapidly evolving" → cut entirely and be specific; "In the realm of" → In/Within; "It is important to note that" → cut the preamble, state the fact; "Let's delve into" → just start the section; "Without further ado" → cut entirely; "In conclusion" / "In summary" → So/To sum up, or just stop.
 
@@ -101,6 +101,10 @@ A related reflex is the **pronouncement frame**: fronting a plain claim with sca
 - The maxim closer: ending a section on a short abstract summary like "The craft is mostly restraint."
 
 Lead with the concrete thing instead. "The redesign slows people down" beats "The point of the redesign is to slow people down." Let the reader infer the significance rather than being told it.
+
+### Cut the frame-opener tics
+
+A cluster of fixed openers front a point with empty scaffolding instead of stating it. "When it comes to X, ..." announces a topic and says nothing about it; cut the preamble and make the claim, so "When it comes to pricing, we keep it simple" becomes "Our pricing is simple." "In a world where..." and "In an era of..." open on a sweeping generalization to sound weighty; open on the specific instead. "That's where X comes in" stages a reveal before naming a product; say what it does directly. And "plays a pivotal role in" (or "a key role in," "a central role in") pads a plain verb, so "Monitoring plays a pivotal role in catching problems" becomes "Monitoring catches problems early." These sit at the start of a sentence or follow a fixed template, so they are easy to catch once you watch the opening words.
 
 ### Cut the performative framing beat
 
@@ -182,6 +186,8 @@ Instead of "This was a deeply frustrating experience," show frustration building
 ### Cut unsolicited reassurance
 
 A recent habit, strongest in chat-tuned models, is to reassure the reader without being asked: "You're not alone." "You're not imagining it." "You're not broken." "It's not just you." Dropped into a business post, a doc, or an essay, it reads as therapeutic filler that performs empathy in place of saying anything. Cut it, or replace it with the specific thing worth saying. If the piece genuinely calls for reassurance, make it concrete ("plenty of teams hit this same wall in month two") rather than a canned "you're not X" formula.
+
+A close relative opens on a manufactured shared struggle: "If you've ever struggled with slow deploys, you know the pain." It fakes relatability with a canned second-person conditional before it has earned any. Lead with the concrete stake instead ("Slow deploys waste hours every week"). An ordinary conditional that recalls a real shared experience ("If you've ever been to Paris, you know the traffic") is fine; the tell is the empathy-hook opener bolted to the front of a piece.
 
 ### Match readability to audience
 
@@ -268,6 +274,7 @@ Reading these rules is not enough on its own; a quick verification pass catches 
 - The antithesis flip and the pronouncement frames from the structure section.
 - Meta labels that name the text's own format or length instead of its subject, and self-satisfied closers or first-person meta-commentary that perform polish instead of adding content. Keep at most one aphorism or paradox construction, and only where it does real work.
 - The unsolicited-reassurance frame ("You're not alone," "It's not just you") and the question-fragment beat ("The best part? ..."), unless the piece genuinely earns one.
+- The frame-opener tics ("When it comes to X," "In a world where," "That's where X comes in," "plays a pivotal role in") and the manufactured-empathy opener ("If you've ever struggled with...").
 - Vague-authority appeals ("studies show," "experts agree," "it is widely believed") left without a named source.
 - Any AI-flagged word left in that a plainer one would replace without loss.
 - Reality-insistence words (*real*, *actual*, *genuine*, *truly*) beyond a single deliberate use.
