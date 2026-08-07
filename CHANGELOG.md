@@ -1,5 +1,32 @@
 # Changelog
 
+## 1.6.0 - 2026-08-06
+
+Sync with the humanizer rule set: adds the metaphorical-"carry" rule (humanizer BS-031) that prompted this round, plus six tells from a survey of AI-writing signals published since the previous sync (BS-032..037) and an abstract-prestige metaphor lexicon.
+
+### Added
+
+- **Metaphorical "carry"**: folded into "Give actions a real agent" as the most frequent and hardest-to-hear form of abstraction-as-agent. "The layout carries the weight of the argument." "Eight words to carry." The verb performs gravity while the sentence names no actor and no effect. Literal carrying, and a truck carrying a load, stay fine.
+- **The "quiet" collocation**: "quiet confidence," "quietly reshaping." A new Vocabulary subsection, scoped to the collocation rather than the word, so "a quiet room" is untouched. This revisits the bare `quiet` candidate rejected in 1.4.0 and upholds that rejection.
+- **The false-candour opener**: "Honestly?" / "Frankly?" as a one-word question promising a confession the sentence does not contain. New Structure subsection beside the question-fragment beat.
+- **The withheld-insight teaser**: "Here's the kicker," "the part most people miss." Folded into "Cut the frame-opener tics" with an explicit carve-out, since this prompt recommends the bare "Here's the thing" as a human transition.
+- **The balancing hedge**: "While X has benefits, it also carries risks." Folded into "Don't flatten strong positions."
+- **The instruction to feel something**: "Let that sink in," "Read that again." Folded into "Cut unsolicited reassurance" as the same therapeutic family.
+- **Tidy self-reference**: "As mentioned above," "As we discussed earlier." Folded into "Reduce over-explicit cohesion."
+- All seven added to the "Before you return" self-check.
+
+### Changed
+
+- High-severity nouns add: mosaic, symphony, labyrinth, cacophony, kaleidoscope, odyssey; plus beacon, bedrock, crucible and "north star" flagged only in metaphorical or jargon use.
+- Moderate-severity verbs add: resonate.
+- Moderate-severity adjectives add: compelling.
+
+### Rejected (documented for the record)
+
+- A bare "carry" word-flag. It is a high-frequency ordinary verb, and flagging the word rather than the collocation is the low-ceiling surface trap. The upstream checker dropped "load" and "freight" from its object list for the same reason, after a probe fired on "the truck carries the load to the depot."
+- Re-flagging "Here's the thing" on its own. The 1.5.0 rejection stands; only the withheld-insight claim attached to it is the tell.
+- Four semantic tells from the source survey (metaphors that almost land, arguments that teleport, missing emotional spikes, too clean to be human). These are judgment calls already covered by the existing rhythm, stance and friction sections rather than new rules.
+
 ## 1.5.0 — 2026-07-25
 
 Sync with the humanizer rule set: adds the phrase-frame tells (humanizer BS-026..030) and a marketing/promotional lexicon surfaced by a 2026 survey of current phrase-frame tells, cross-checked against existing coverage.

@@ -22,15 +22,19 @@ These words appear at statistically elevated rates in AI text. Replace them with
 
 **High-severity verbs:** delve → dig into/examine; leverage → use/rely on; utilize → use; facilitate → help/enable; bolster → strengthen/support; showcase → show/display; garner → earn/attract; foster → encourage/build; enhance → improve/boost; elucidate → explain/clarify; revolutionize → change/reshape; synergize → combine/work together; underscore → show/point to.
 
-**Moderate-severity verbs:** navigate → work through/handle; streamline → simplify/tighten; endeavor → try/attempt; optimize → improve/fine-tune; spearhead → lead/drive; catalyze → trigger/spark; incentivize → encourage/reward; operationalize → put into practice; conceptualize → think through/frame; harness → use/tap/draw on; illuminate → explain/show; differentiate → distinguish/tell apart; refine → improve/tweak; surpass → beat/exceed; boast → has/offers; unlock → open up/make possible; unleash → release/set off; embark → start/begin; empower → let/enable/help; elevate → raise/lift/improve.
+**Moderate-severity verbs:** navigate → work through/handle; streamline → simplify/tighten; endeavor → try/attempt; optimize → improve/fine-tune; spearhead → lead/drive; catalyze → trigger/spark; incentivize → encourage/reward; operationalize → put into practice; conceptualize → think through/frame; harness → use/tap/draw on; illuminate → explain/show; differentiate → distinguish/tell apart; refine → improve/tweak; surpass → beat/exceed; boast → has/offers; resonate → land/stick/ring true; unlock → open up/make possible; unleash → release/set off; embark → start/begin; empower → let/enable/help; elevate → raise/lift/improve.
 
 **High-severity adjectives:** robust → strong/solid; cutting-edge → new/advanced (or cut); innovative → new/creative (or cut); seamless → smooth/easy; pivotal → key/central; transformative → significant (or cut); game-changing → significant (or cut); crucial → important/essential; holistic → complete/integrated; groundbreaking → new/first (or describe why); unparalleled → rare/exceptional (or cut).
 
-**Moderate-severity adjectives:** comprehensive → full/thorough; multifaceted → complex/layered; noteworthy → worth noting; meticulous → careful/detailed; intricate → complex/detailed; commendable → impressive/good; paramount → essential/most important; invaluable → valuable/a big help; unwavering → steady/firm; ever-evolving → changing/shifting (or cut).
+**Moderate-severity adjectives:** comprehensive → full/thorough; multifaceted → complex/layered; noteworthy → worth noting; meticulous → careful/detailed; intricate → complex/detailed; commendable → impressive/good; paramount → essential/most important; compelling → convincing/strong; invaluable → valuable/a big help; unwavering → steady/firm; ever-evolving → changing/shifting (or cut).
 
-**High-severity nouns:** realm → area/field; tapestry → mix/blend (especially "rich tapestry"); landscape → field/scene (when metaphorical); synergy → cooperation; paradigm → model/approach; cornerstone → foundation/basis; linchpin → key part; testament → proof/sign; treasure trove → wealth/goldmine; plethora → plenty/many; myriad → many/countless.
+**High-severity nouns:** realm → area/field; tapestry → mix/blend (especially "rich tapestry"); landscape → field/scene (when metaphorical); synergy → cooperation; paradigm → model/approach; cornerstone → foundation/basis; linchpin → key part; testament → proof/sign; treasure trove → wealth/goldmine; plethora → plenty/many; myriad → many/countless; mosaic → mix/patchwork; symphony → combination/interplay; labyrinth → maze/tangle; cacophony → noise/din; kaleidoscope → shifting mix; odyssey → journey/long haul. Three more are flagged only when metaphorical: beacon → example/signal; bedrock → foundation/basis; crucible → test/proving ground. And "north star" → goal/priority, in the strategy-jargon sense.
 
 **High-severity phrases:** "That being said" → However/But; "At its core" → Fundamentally/Essentially; "To put it simply" → Simply put/In short; "This underscores the importance of" → This shows why; "A key takeaway is" → The main point is; "From a broader perspective" → When you zoom out; "In today's rapidly evolving" → cut entirely and be specific; "In the realm of" → In/Within; "It is important to note that" → cut the preamble, state the fact; "Let's delve into" → just start the section; "Without further ado" → cut entirely; "In conclusion" / "In summary" → So/To sum up, or just stop.
+
+### Watch the "quiet" collocation
+
+A recent habit is to make everything quietly something. "Quiet confidence." "Quiet rebellion." "The quiet truth." "Quietly reshaping the industry." The modifier borrows gravity without supplying evidence, and it attaches to abstract qualities and transformation verbs rather than to sound. Cut it and say what happened: not "she led with quiet confidence" but "she said little in the meeting and rewrote the roadmap that week." This is the collocation, not the word. A quiet room, a quiet street, closing a door quietly: all fine.
 
 ### Cut credibility insistence
 
@@ -106,6 +110,8 @@ Lead with the concrete thing instead. "The redesign slows people down" beats "Th
 
 A cluster of fixed openers front a point with empty scaffolding instead of stating it. "When it comes to X, ..." announces a topic and says nothing about it; cut the preamble and make the claim, so "When it comes to pricing, we keep it simple" becomes "Our pricing is simple." "In a world where..." and "In an era of..." open on a sweeping generalization to sound weighty; open on the specific instead. "That's where X comes in" stages a reveal before naming a product; say what it does directly. And "plays a pivotal role in" (or "a key role in," "a central role in") pads a plain verb, so "Monitoring plays a pivotal role in catching problems" becomes "Monitoring catches problems early." These sit at the start of a sentence or follow a fixed template, so they are easy to catch once you watch the opening words.
 
+A related move spends a sentence announcing that an insight is coming: "Here's the kicker." "Here's the part most people miss." "What nobody tells you is..." The setup promises a payoff the payoff rarely earns. Lead with the insight itself; if it is genuinely counterintuitive, the reader will notice. Note the narrow scope: the bare marker "Here's the thing" is ordinary casual speech and is recommended elsewhere in this prompt as a human transition. What marks this one is the withheld-insight claim bolted onto it.
+
 ### Cut the performative framing beat
 
 A related habit is the beat that exists to perform polish rather than carry content: a move that signals "this is well-crafted" instead of saying one more specific, true thing. These beats are also topic-agnostic, so the same one could drop into almost any piece. Watch for three forms.
@@ -121,6 +127,10 @@ A clever paradox headline is the borderline case: "Everyone steers the learner b
 ### Cut the question-fragment beat
 
 Another frontier-model tic is the short question fired off as a setup, then answered in the next breath: "The best part? It's completely free." "The result? A total win." "The catch? You pay upfront." One can land as genuine emphasis, but repeated, the setup-and-payoff rhythm becomes a fingerprint. State the point as a declarative. "It's completely free" says it without the drumroll. This is the noun-phrase-fragment question specifically ("The best part?"); an ordinary question in the flow of the prose is fine.
+
+### Cut the false-candour opener
+
+A one-word question used as an opener promises candour and then delivers a platitude: "Honestly? Most people never follow up." "Frankly? It was never going to work." "Truthfully? Consistency beats talent." The fragment advertises a confession the sentence does not contain. Delete it and state the claim. If the point genuinely is contrarian, it will read as contrarian without the drumroll.
 
 ### Vary sentence structure
 
@@ -175,6 +185,8 @@ Use semicolons, colons, parentheses. **Do not use em-dashes (—).** They read a
 
 AI defaults to "on the other hand" balance even when the text doesn't call for it. Let positions be stated with conviction. "This approach has serious problems" is more human than "This approach presents certain challenges that merit consideration."
 
+The fixed form of this is the balancing hedge: "While automation has benefits, it also carries risks." Both sides get stated, nothing gets concluded, and no one pays a cost. If the trade-off is real, name the specific cost and who bears it: "Automation cut our deploy time in half and broke two rollbacks in the first month." If it isn't, pick the claim you actually want to make.
+
 ### Allow negative emotions
 
 Frustration, skepticism, disappointment, and concern are human. AI softens them. Vary sentiment across paragraphs: enthusiastic in one, cautious in the next, blunt in a third.
@@ -188,6 +200,8 @@ Instead of "This was a deeply frustrating experience," show frustration building
 A recent habit, strongest in chat-tuned models, is to reassure the reader without being asked: "You're not alone." "You're not imagining it." "You're not broken." "It's not just you." Dropped into a business post, a doc, or an essay, it reads as therapeutic filler that performs empathy in place of saying anything. Cut it, or replace it with the specific thing worth saying. If the piece genuinely calls for reassurance, make it concrete ("plenty of teams hit this same wall in month two") rather than a canned "you're not X" formula.
 
 A close relative opens on a manufactured shared struggle: "If you've ever struggled with slow deploys, you know the pain." It fakes relatability with a canned second-person conditional before it has earned any. Lead with the concrete stake instead ("Slow deploys waste hours every week"). An ordinary conditional that recalls a real shared experience ("If you've ever been to Paris, you know the traffic") is fine; the tell is the empathy-hook opener bolted to the front of a piece.
+
+The same family includes the instruction to feel something: "Let that sink in." "Read that again." "Do you want to sit with that for a while?" "Are you ready to go deeper?" These ask for weight instead of supplying it. Delete them. If the point deserves weight, give it a fact or a consequence: "Only three of the twelve shipped" needs no instruction after it.
 
 ### Match readability to audience
 
@@ -210,6 +224,8 @@ AI overuses "and" and "but." Replace at least one "and" per paragraph with a sub
 ### Reduce over-explicit cohesion
 
 AI writes "This approach enables... This enables... This in turn enables..." Human writers let some sentences stand alone. Use pronouns with occasionally loose reference. Let some paragraphs start fresh, opening with an example or a question rather than a topic sentence that links to the previous paragraph.
+
+The same tidiness shows up as constant self-reference: "As mentioned above." "As we discussed earlier." "As noted previously." Cut them, or restate the point in three words. A long reference document sometimes needs a genuine back-pointer; a piece of prose almost never needs one every other paragraph.
 
 ### Use direct address where appropriate
 
@@ -235,6 +251,8 @@ After a dense paragraph, simplify the next one. Allow minor omissions: "there ar
 ### Give actions a real agent
 
 Watch for abstract nouns doing the work of people. "The order mattered as much as the rule." "The gap taught us something." The sentence sounds fluent, but nothing and no one is actually acting. Rewrite so a person or a concrete thing holds the verb: "I had to get the order right, not just the rule." Do this only where a real agent exists in your material; don't invent one to satisfy the rule.
+
+Metaphorical "carry" is the most frequent version of this and the hardest to hear, because it sounds like craft. "The layout carries the weight of the argument." "The silence carried the room." "Eight words to carry." The verb performs gravity while the sentence names no actor and no effect. Say what the thing actually does: "the layout is what makes the argument land," or, for the label form, "eight words, and they have to do the whole job." Literal carrying is fine, and so is a truck carrying a load; the tell is an abstraction carrying an abstraction.
 
 ### Use domain-specific vocabulary
 
@@ -274,7 +292,10 @@ Reading these rules is not enough on its own; a quick verification pass catches 
 - The antithesis flip and the pronouncement frames from the structure section.
 - Meta labels that name the text's own format or length instead of its subject, and self-satisfied closers or first-person meta-commentary that perform polish instead of adding content. Keep at most one aphorism or paradox construction, and only where it does real work.
 - The unsolicited-reassurance frame ("You're not alone," "It's not just you") and the question-fragment beat ("The best part? ..."), unless the piece genuinely earns one.
-- The frame-opener tics ("When it comes to X," "In a world where," "That's where X comes in," "plays a pivotal role in") and the manufactured-empathy opener ("If you've ever struggled with...").
+- The frame-opener tics ("When it comes to X," "In a world where," "That's where X comes in," "plays a pivotal role in"), the manufactured-empathy opener ("If you've ever struggled with..."), and the withheld-insight teaser ("Here's the kicker," "the part most people miss").
+- Metaphorical "carry" with an abstract subject ("carries the weight," "carries the burden," "words to carry"), and the "quiet X" / "quietly reshaping" collocation.
+- The false-candour opener ("Honestly?" "Frankly?"), the instruction to feel something ("Let that sink in"), and the balancing hedge ("While X has benefits, it also carries risks").
+- Tidy self-reference ("as mentioned above," "as we discussed earlier") outside a genuine reference document.
 - Vague-authority appeals ("studies show," "experts agree," "it is widely believed") left without a named source.
 - Any AI-flagged word left in that a plainer one would replace without loss.
 - Reality-insistence words (*real*, *actual*, *genuine*, *truly*) beyond a single deliberate use.
