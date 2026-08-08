@@ -1,5 +1,24 @@
 # Changelog
 
+## 1.7.0 - 2026-08-08
+
+Sync with the humanizer rule set: adds the appended significance label (humanizer BS-038) and the antithesis fragment (BS-039), both from an in-the-wild report on a document that had passed the previous rule set clean.
+
+### Added
+
+- **The appended significance label**: a heading or subtitle that names its subject and then annexes a second element promising the subject matters. A *why* clause pre-defending a choice ("Method, and why this one"), or a trailing relative clause asserting a hinge ("Reintegration support at the moment of release, and the officer the whole system turns on"). Added as a fourth form under "Cut the performative framing beat", with the instruction to read every label in the piece rather than only the body. One such label may be deliberate; two is the tell.
+- **The antithesis fragment**: a sentence opening on *Not* and pivoting on *but*, with the same word starting both halves ("Not because X, but because Y," "Not to save time, but to save arguments," "Not a strategy, but a habit"). Added to "Kill the antithesis reflex" as a fifth surface form. The previous rules covered the copula flip and the two-sentence versions and missed this one, which is the more common written form.
+- Both added to the "Before you return" self-check, and the fragment added to anti-pattern 4.
+
+### Changed
+
+- "Kill the antithesis reflex" now carries the carve-out that distinguishes the tell from ordinary grammar: a sentence where *Not* heads a real subject ("Not all of them agreed, but most did") and the mid-sentence correlative ("He did not go to the store, but to the park") are both fine.
+
+### Rejected (documented for the record)
+
+- The bare adverb form of the fragment ("Not always, but often."). Without a shared word opening both halves it cannot be told from ordinary casual speech ("Not bad, but okay."), and a rule that cries wolf gets ignored.
+- Two typography signals reported alongside these: the section symbol, which is ordinary in anything citing statute, and middot separators, which are as common in human-authored web copy as in generated copy. Both are tooling conventions rather than author signals, the same reasoning that rejected smart quotes in 1.4.0.
+
 ## 1.6.0 - 2026-08-06
 
 Sync with the humanizer rule set: adds the metaphorical-"carry" rule (humanizer BS-031) that prompted this round, plus six tells from a survey of AI-writing signals published since the previous sync (BS-032..037) and an abstract-prestige metaphor lexicon.

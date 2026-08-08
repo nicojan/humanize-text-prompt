@@ -95,8 +95,9 @@ The most characteristic move in LLM prose is the flip: state what something is *
 - The hedged aphorism: "The hard part is rarely the code. It's deciding what to build."
 - The disclaimer reversal: "I won't pretend this is easy. But it's worth it."
 - The verb mirror: "AI carries the busywork. It never carries the judgment."
+- The fragment: "Not because the person stopped mattering, but because the officer is reachable." A sentence that opens on *Not* and pivots on *but*, with the same word starting both halves ("Not because... but because," "Not to save time, but to save arguments," "Not a strategy, but a habit").
 
-In every case, make the positive claim once and let it stand. Don't negate an alternative just to knock it down. "It's about the judgment" says the whole thing on its own.
+In every case, make the positive claim once and let it stand. Don't negate an alternative just to knock it down. "It's about the judgment" says the whole thing on its own, and "The officer is the reachable point in the system" says it without the rejected half, which usually answers a charge nobody made. Two ordinary constructions look similar and are fine: a sentence where *Not* heads a real subject ("Not all of them agreed, but most did") and the mid-sentence correlative ("He did not go to the store, but to the park"). What marks the tell is the sentence opening on *Not* with both halves starting on the same word.
 
 A related reflex is the **pronouncement frame**: fronting a plain claim with scaffolding that announces its own importance.
 
@@ -114,13 +115,15 @@ A related move spends a sentence announcing that an insight is coming: "Here's t
 
 ### Cut the performative framing beat
 
-A related habit is the beat that exists to perform polish rather than carry content: a move that signals "this is well-crafted" instead of saying one more specific, true thing. These beats are also topic-agnostic, so the same one could drop into almost any piece. Watch for three forms.
+A related habit is the beat that exists to perform polish rather than carry content: a move that signals "this is well-crafted" instead of saying one more specific, true thing. These beats are also topic-agnostic, so the same one could drop into almost any piece. Watch for four forms.
 
 The first is the **meta label**: a heading or standalone line that names the piece's own format or length instead of its subject. "In 200 words." "In brief." "The short version." "At a high level." Replace the label with a phrase about the content ("the direction problem"), or cut it and let the section speak for itself. Do not announce structure; let the structure be the structure. This is only the standalone-label case; "in short" used inside a sentence is fine.
 
 The second is the **self-satisfied closer**: a neat aphorism ending a section that adds no new fact, name, or number, often crediting the writer or pivoting on a tidy antithesis. "The data set is public; the reading of it is mine." It overlaps with the maxim closer above; the extra tell is the flourish standing in for a last substantive point. Delete the beat and end on the last real thing you had to say.
 
 The third is **first-person meta-commentary on the work itself** ("my take," "as I see it," "the reading of it is mine") dropped into a piece that is otherwise evidence-led. It performs a stance rather than earning one. Cut it and let the evidence carry the view.
+
+The fourth is the **appended significance label**: a heading or subtitle that names its subject and then annexes a second element whose only job is to promise the subject matters. Sometimes it is a *why* clause pre-defending a choice the body has not made yet, as in "Method, and why this one" (a section called Method was always going to defend its method). Sometimes it is a trailing relative clause asserting a hinge, as in "Reintegration support at the moment of release, and the officer the whole system turns on." Read every label in the piece and ask whether the part after the comma adds a fact or only tells the reader this is important. If it is the second, cut it and let the section earn it. "Method" does the job. One such label may be deliberate; two in one piece is the tell, because a repeated rhetorical shape reads as machine-made even when the words differ.
 
 A clever paradox headline is the borderline case: "Everyone steers the learner but the learner" is fine as a genuine title, a tell when it substitutes for a plain statement of the point. Keep at most one aphoristic or paradox construction per piece, and only where it does analytical work. The device is human in moderation; what marks it as machine-made is repetition and substitution for content, not the device itself.
 
@@ -273,7 +276,7 @@ If you see any of these, rewrite them:
 1. **Significance puffery:** "marking a pivotal moment," "setting the stage for," "a broader movement." Strip editorializing. State what happened.
 2. **Vague authorities:** an appeal to an unnamed source, whether a group ("researchers and conservationists," "efforts are ongoing," "a larger initiative") or an epistemic frame that borrows credibility it never earns ("studies show," "research suggests," "experts agree," "it is widely believed," "many argue"). Name the specific study, person, or body and cite it. If you can't name them, drop the claim or state it as your own view. A named, specific reference ("a 2024 Stanford study of 16,000 workers found...") is fine.
 3. **Vocabulary clustering:** when "valuable insights," "highlight," "underscore," "showcasing," "intricate," and "interplay" appear together. Replace with the specific facts.
-4. **Antithesis and negative parallelism:** "not just X, but also Y" → simple conjunction. "It's not X, it's Y," including the two-sentence version ("...is not Y. It is Z."), → state the point directly. See "Kill the antithesis reflex" above for the full family.
+4. **Antithesis and negative parallelism:** "not just X, but also Y" → simple conjunction. "It's not X, it's Y," including the two-sentence version ("...is not Y. It is Z.") and the fragment ("Not because X, but because Y."), → state the point directly. See "Kill the antithesis reflex" above for the full family.
 5. **Elegant variation:** rotating synonyms for the same concept to avoid repetition. Repeat the plain noun when clarity demands it.
 6. **Despite-challenges formula:** "Despite its success, X faces challenges, including... Despite these challenges, X remains..." Replace with specific problems and specific responses.
 7. **Didactic disclaimers:** "it's important to note," "it's worth noting," "it's crucial to remember." Cut the preamble, state the fact.
@@ -291,6 +294,8 @@ Reading these rules is not enough on its own; a quick verification pass catches 
 - Didactic disclaimers ("it's important to note," "it's worth noting") and empty openers ("in today's fast-paced world").
 - The antithesis flip and the pronouncement frames from the structure section.
 - Meta labels that name the text's own format or length instead of its subject, and self-satisfied closers or first-person meta-commentary that perform polish instead of adding content. Keep at most one aphorism or paradox construction, and only where it does real work.
+- Appended significance labels: a heading or subtitle that names its subject and then annexes a clause promising the subject matters ("Method, and why this one," "..., and the officer the whole system turns on"). Check every label, not just the body.
+- The antithesis fragment: a sentence opening on *Not* and pivoting on *but* with the same word starting both halves ("Not because X, but because Y").
 - The unsolicited-reassurance frame ("You're not alone," "It's not just you") and the question-fragment beat ("The best part? ..."), unless the piece genuinely earns one.
 - The frame-opener tics ("When it comes to X," "In a world where," "That's where X comes in," "plays a pivotal role in"), the manufactured-empathy opener ("If you've ever struggled with..."), and the withheld-insight teaser ("Here's the kicker," "the part most people miss").
 - Metaphorical "carry" with an abstract subject ("carries the weight," "carries the burden," "words to carry"), and the "quiet X" / "quietly reshaping" collocation.
