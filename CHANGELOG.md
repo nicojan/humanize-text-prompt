@@ -1,5 +1,24 @@
 # Changelog
 
+## 1.12.0 - 2026-09-18
+
+Sync with the humanizer rule set. The server scoped three lexicon words to their collocations and dropped a fourth, so this prompt's vocabulary lists carry the same scope.
+
+### Changed
+
+- **`boast`** is scoped to the feature brag: the tell is "boasts a/an/over X" standing in for "has", while "boast of" and "boast about" are ordinary English and stay. On the server this is now `BS-049` rather than a bare lexicon word, after the word measured 7.4 false positives per 10k on 47,088 sentences of pre-1930 prose.
+- **`elevate`** is scoped to "elevate your X" and "elevate the experience". Literal raising stays, and so does "elevated rates". Server side: `BS-050`, after 7.4 per 10k.
+- **`landscape`** needed no change here. This prompt already said "when metaphorical", which is exactly the scope the server has now mechanized as `BS-051`. Worth recording, because the prompt was ahead of the checker for once.
+
+### Rejected (documented for the record)
+
+- **`particularly`**, which the server dropped from its adverb lexicon this round (117 occurrences on the long-form corpus, 18 percent of every lexicon finding on human prose, and replacements that are synonyms of it). It was never in this prompt, so there was nothing to remove. The guidance it sat behind, that the model underuses manner and degree adverbs and reaches for generic intensifiers, is already here in prose.
+- **Document budgets.** The server now counts four budgeted shapes automatically and reports an overrun. This prompt has no checker, so the change is invisible here, and the per-piece counting instruction it already carries is unchanged.
+
+### Notes
+
+- **The self-contradiction check earned itself a fifth time, in an unusual direction.** This prompt's own text says AI words "appear at statistically elevated rates" and mentions "a uniformly elevated grade level". Under the bare lexicon entry the checker flagged its own source document; under the scoped `BS-050` it does not. The contradiction was in the old rule rather than in the prompt, and the scoping resolved it in the same round.
+
 ## 1.11.0 - 2026-09-18
 
 Sync with the humanizer rule set. The server narrowed `BS-011`, its worst-precision rule, from a bare two-token pattern to a copula-anchored one, and the surface form it now targets was missing from this prompt.
