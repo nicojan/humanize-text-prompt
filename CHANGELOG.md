@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.11.0 - 2026-09-18
+
+Sync with the humanizer rule set. The server narrowed `BS-011`, its worst-precision rule, from a bare two-token pattern to a copula-anchored one, and the surface form it now targets was missing from this prompt.
+
+### Added
+
+- **The inline pair** ("The work is judgement, not process.") as a sixth surface form under "Kill the antithesis reflex": a copula, a short noun phrase, a comma, then the rejected twin closing the sentence. It was the one member of the antithesis family the section did not list, even though the server has flagged it since June. Also added to item 4 of the tell list, scoped there as "used as a reflex rather than as a scope note".
+- The carve-out is the load-bearing half, and it is the same one the server now carries in its rule entry: a sentence whose job is to fix a scope ("The unit is the collocation, not the word.") or to correct a fact ("The response was 406, not 421.") is legitimate and stays. The tell is the reflex, the same binary reached for section after section with an abstract noun on both sides.
+
+### Why the carve-out is stated rather than assumed
+
+On the server this is a measured, accepted false positive. The copula-anchored pattern fires 0 times on 47,088 sentences of pre-1930 prose, and 9 times on 2,692 sentences of modern rule-writing prose, where eight of the nine are scope notes and one is the attested tell itself. Precision 1/9 in that register. Narrowing further was probed and fails, because determiners, sentence position and a prestige-noun lexicon all cut across the two senses instead of between them. Recorded as `caveats.contrastive_scope_notes_are_the_same_shape`.
+
+### Notes
+
+- **The self-contradiction check caught it, for the fourth time.** This prompt uses the inline pair twice in its own prose ("This is the collocation, not the word.", "The tell is the appending, not the phrase.") and once in a section heading ("Build emotion through detail, not labels"). An unconditional ban would have contradicted the document in three places on the day it shipped. The bullet is written with the scope-note carve-out explicit, which makes those three uses consistent with it rather than exceptions to it, and none of them was rewritten.
+
 ## 1.10.0 - 2026-09-18
 
 Sync with the humanizer rule set. This round is unusual: on the server side it shipped **no new detector**, because the tell it went after turned out to be unmechanizable. The guidance still belongs here, since this prompt is judgment all the way down and can carry what a checker cannot.
