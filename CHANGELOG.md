@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.10.0 - 2026-09-18
+
+Sync with the humanizer rule set. This round is unusual: on the server side it shipped **no new detector**, because the tell it went after turned out to be unmechanizable. The guidance still belongs here, since this prompt is judgment all the way down and can carry what a checker cannot.
+
+### Added
+
+- **Anaphora and stacked sentence openings**, three or more consecutive sentences opening on the same word or the same two words ("They assume users will pay. They assume the market is ready. They assume nothing changes."). Placed directly after "Reduce over-explicit cohesion", because the "This... This... This..." chain already described there is the commonest machine form of the same habit, and the new paragraph generalizes it. Written as a judgment call rather than a prohibition, and the carve-out is the whole point: the form is a named rhetorical figure, so the paragraph quotes Thoreau ("It does not keep the country free. It does not settle the West. It does not educate.") and Melville to show what earning it looks like. The tell is the same construction without the escalation, where each limb restates the first. Budget of one deliberate run per piece, counted across the assembled text.
+- A line in the "Confirm these vary" half of the self-check, not the "Eliminate these completely" half. That placement is deliberate and matches the server, where this is a `self_review` rubric item rather than a `banned_structure`.
+
+### Rejected (documented for the record)
+
+- **A mechanical anaphora rule**, which is what the round set out to build. Probed against 47,088 sentences of pre-1930 public-domain prose, the loosest formulation scored 75.4 false positives per 10k sentences and the best scored 3.2 per 10k, at which point all fifteen firings were read and every one was legitimate deliberate anaphora. Set the Thoreau sentence beside the machine tell and every property a detector can read is identical: three sentences, subject pronoun plus a repeated verb, under eight words each. Raising the threshold to four lost the attested tell entirely while still firing on human prose. A parser would not help here, unlike the appositive label, because the figure and its abuse are the same construction rather than two that merely look alike. Recorded on the server as `caveats.rhetorical_figures_defeat_shape_detection`.
+
+### Notes
+
+- **The self-contradiction check found nothing this time**, which is worth recording given it has caught a real conflict on three previous syncs. "Don't repeat the same content word within three sentences unless for deliberate emphasis" (section 1) already carried the right carve-out, and there is no unconditional "vary your sentence openings" instruction anywhere in the prompt that the new paragraph would have contradicted.
+
 ## 1.9.0 - 2026-09-17
 
 Sync with the humanizer rule set: adds copula avoidance (humanizer BS-043) and five more tells from a survey of user-identified sources (Wikipedia's editor-maintained "Signs of AI writing", tropes.fyi, slop-sense) and research-identified ones (arXiv:2605.19936, the Science Advances excess-vocabulary study).

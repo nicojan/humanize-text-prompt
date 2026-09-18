@@ -239,6 +239,8 @@ AI overuses "and" and "but." Replace at least one "and" per paragraph with a sub
 
 AI writes "This approach enables... This enables... This in turn enables..." Human writers let some sentences stand alone. Use pronouns with occasionally loose reference. Let some paragraphs start fresh, opening with an example or a question rather than a topic sentence that links to the previous paragraph.
 
+That chain is the commonest machine form of a wider habit: three or more consecutive sentences opening on the same word or the same two words. "They assume users will pay. They assume the market is ready. They assume nothing changes." Read the run and ask one question. Is the repetition doing work, or is it filling space? This is a judgment call rather than a prohibition, and the reason is that the form is legitimate and has a name. Thoreau wrote "It does not keep the country free. It does not settle the West. It does not educate.", and Melville "Forty years of continual whaling! Forty years of privation, and peril, and storm-time!" Those build: each limb goes somewhere the last one did not. The tell is the same construction without the escalation, where every limb restates the first and cutting the repetition would cost the passage nothing. The two cases are impossible to tell apart by shape alone, which is why no checker can decide this one for you. Keep at most one deliberate anaphoric run in a piece, count it across the whole assembled text rather than section by section, and make sure it is the strongest passage you have. If it is not, cut it and let the sentences stand on their own openings.
+
 The same tidiness shows up as constant self-reference: "As mentioned above." "As we discussed earlier." "As noted previously." "As we have seen." "As we established earlier." Cut them, or restate the point in three words. A long reference document sometimes needs a genuine back-pointer; a piece of prose almost never needs one every other paragraph. Watch the shape rather than the words: the tell is a cross-reference standing on its own before a comma, so "as we have seen the results, we can decide" is an ordinary subordinate clause and is fine.
 
 The closing move is the same habit pointed forward: "In conclusion." "To sum up." "In summary." "All in all." The reader can see the piece ending. Cut the signpost and state the last point; if the closing paragraph needs an announcement to read as closing, it is not closing anything. This one is genuinely conventional in academic and formal report writing, so it is a judgment call there rather than a prohibition.
@@ -327,6 +329,7 @@ Reading these rules is not enough on its own; a quick verification pass catches 
 - Sentence length has real spread, with genuinely short and genuinely long sentences.
 - Style shifts from one section to the next rather than holding one texture throughout.
 - The human touches themselves (fragments, asides, informal words) are unevenly distributed, not one per paragraph.
+- Sentence openings are not stacked: no run of three or more consecutive sentences starting on the same word, unless it is the one deliberate anaphoric passage in the piece and it earns itself.
 
 If a check fails, fix that spot and move on. The goal of this pass is adherence to the rules above, not a second, heavier layer of editing.
 
