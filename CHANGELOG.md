@@ -1,5 +1,32 @@
 # Changelog
 
+## 1.9.0 - 2026-09-17
+
+Sync with the humanizer rule set: adds copula avoidance (humanizer BS-043) and five more tells from a survey of user-identified sources (Wikipedia's editor-maintained "Signs of AI writing", tropes.fyi, slop-sense) and research-identified ones (arXiv:2605.19936, the Science Advances excess-vocabulary study).
+
+### Added
+
+- **Copula avoidance**, the largest gap this survey found: the model will not write "is", so it reaches for "serves as", "stands as", "represents", "marks". A new subsection placed immediately after "Reduce copula overuse", because the two rules look contradictory until you read them together, and the placement is the point. Carries both carve-outs: a person holding an office genuinely serves as something, and a capacitor functions as a filter.
+- **The staccato negation run** ("Not a bug. Not a feature.") as a sixth surface form under "Kill the antithesis reflex", with the guard that ordinary emphasis is adverbial ("Not now. Not ever.") and stays.
+- **The announced procedure** ("Let's break this down", "Let's unpack") and **the instructed analogy** ("Think of it as a...") folded into "Cut the frame-opener tics", scoped to procedure rather than stance so that "let's be honest" and "let's explore the options" stay untouched.
+- **The signposted conclusion** and the backward self-reference ("As we have seen") folded into "Reduce over-explicit cohesion", with the shape guard that "as we have seen the results, we can decide" is an ordinary subordinate clause.
+- "Imagine a world where" added beside the existing "In a world where" opener.
+- Lexicon: profound, renowned, nestle, "diverse array", "natural beauty".
+- All of it added to the "Before you return" self-check.
+
+### Fixed
+
+- **A self-contradiction in the lexicon.** The entry for "In conclusion" recommended "To sum up" as the replacement, which is the same tell in different words. It now says to stop rather than to swap one signpost for another.
+
+### Rejected (documented for the record)
+
+- The rest of the copula verb family (functions as, operates as, comprises, encompasses, constitutes, resides). A probe found 8 out of 8 uses legitimate: these verbs carry technical, legal and organisational meaning the copula cannot replace.
+- Bare "diverse", "align with", "notable", "superior". Ordinary high-frequency words; "diverse array" is scoped to the collocation instead, the same treatment "hidden gem" got in 1.4.0.
+- Every formatting and markup signal in the survey: curly quotes, emoji bullets, bold-first bullets, title-case headings, and the model-specific leakage strings. Tooling artifacts rather than author signals. The leakage strings are real evidence of where a text came from, but they are not prose, and this prompt is about prose.
+- Bare "quietly", for the third time. The collocation rule from 1.6.0 already covers what is real about it.
+- Definite-article omission ("rain in teeth"). A genuine artifact of poetry generation, but a rule for it would fire on every headline and list item.
+- "Here's the thing", again. This prompt recommends it elsewhere as a human transition.
+
 ## 1.8.0 - 2026-09-17
 
 Sync with the humanizer rule set: adds the appended candour disclaimer (humanizer BS-042), widens metaphorical "carry" to process nouns in the subject slot (BS-040), and puts a document-level budget on the appended significance label. From an in-the-wild report naming three shapes.
