@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.8.0 - 2026-09-17
+
+Sync with the humanizer rule set: adds the appended candour disclaimer (humanizer BS-042), widens metaphorical "carry" to process nouns in the subject slot (BS-040), and puts a document-level budget on the appended significance label. From an in-the-wild report naming three shapes.
+
+### Added
+
+- **The appended candour disclaimer**: a first-person admission tacked onto a statement that was already finished. "The redesign took nine months, and I'm not going to pretend that was the plan." The clause adds no fact and asks for credit for honesty while withholding what an honest sentence would contain. Folded into "Cut the false-candour opener" as the appended sibling of the "Honestly?" fragment, and added to the "Before you return" self-check.
+
+### Changed
+
+- **Metaphorical "carry" now covers process nouns in the subject slot**: "the rebuild carries the argument," "the rollout carries the message," "the migration carries the lessons." The subject does not have to be as abstract as "the layout" for the sentence to read as machine-made. Carries a new carve-out in the same breath: "carries risk," "carries a cost," "carries weight with the board" and "carries consequences" are ordinary business and legal English, and rewriting them makes the prose stranger rather than more human.
+- **The appended significance label gets a budget that is counted across the whole assembled piece**, not section by section. Four sections can each pass with one label while the finished document holds four, which is the shape a reader actually notices.
+
+### Rejected (documented for the record)
+
+- Flagging the bare sentence-initial "I'm not going to pretend ...". It is ordinary hedging that qualifies a claim the writer is about to make, and it is common in human first-person writing. Only the appended form is a tell, so the rule is scoped to the appending. This is the same reasoning that rejected "Here's the thing" and "Let's be honest" in 1.5.0.
+- The appositive form of the significance label ("X, and the Y that Zs") as a mechanical rule. The humanizer server re-tested three detection strategies this round and all failed: a loose pattern scored 10/10 false positives on ordinary coordination ("The baker bought bread, and the flour that makes it"), a frequency gate is unsound when per-instance precision is zero, and a finite-verb guard traded recall for precision through a boundary no pattern can see. It stays a judgment call, which is why the budget above matters more than a rule would.
+
 ## 1.7.0 - 2026-08-08
 
 Sync with the humanizer rule set: adds the appended significance label (humanizer BS-038) and the antithesis fragment (BS-039), both from an in-the-wild report on a document that had passed the previous rule set clean.
