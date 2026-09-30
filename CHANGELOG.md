@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.13.0 - 2026-09-29
+
+Sync with the humanizer rule set. A B2 student exemplar written in worksheet cells passed the server's checker clean, and a human reviewer then flagged six phrases. The server added four rules, and this prompt now describes the same shapes.
+
+### Added
+
+- **Time nouns as agents**, under "Give actions a real agent": "the Fridays survived," "Busy season eats the Fridays," "Billiards survives final year," "Work does not get to claim them," with the literal carve-out ("the winter killed the roses"). Server side: `BS-052`. The "get my Fridays back" refrain goes in the same paragraph, budgeted at one per piece (`BS-055`).
+- **The clipped verdict and the stance closer**, as short-copy versions of the self-satisfied closer: "Tutoring stays." (`BS-053`) and "and I want to keep it there" (`BS-054`). "The car stays in the garage" is carved out.
+- All three in the "Before you return" checklist.
+
+### Notes
+
+- **Three of the four server rules have unmeasured precision.** The long-form human corpus almost never puts weekday or semester nouns in subject position, so a zero false-positive rate there says nothing, and the server ships them at low confidence. This prompt has no checker, so the practical effect is the same: read for the shape, and keep a use that is literal.
+- **The self-contradiction check found nothing this round.** The prompt does not recommend any of the four shapes: the server's new rules return 0 findings on the 1.12.0 text, and on 1.13.0 they fire only on the quoted examples. Hard violations are unchanged at the same 5 self-referential quotations.
+
 ## 1.12.0 - 2026-09-18
 
 Sync with the humanizer rule set. The server scoped three lexicon words to their collocations and dropped a fourth, so this prompt's vocabulary lists carry the same scope.
