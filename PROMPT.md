@@ -26,9 +26,9 @@ These words appear at statistically elevated rates in AI text. Replace them with
 
 **High-severity adjectives:** robust → strong/solid; cutting-edge → new/advanced (or cut); innovative → new/creative (or cut); seamless → smooth/easy; pivotal → key/central; transformative → significant (or cut); game-changing → significant (or cut); crucial → important/essential; holistic → complete/integrated; groundbreaking → new/first (or describe why); unparalleled → rare/exceptional (or cut).
 
-**Moderate-severity adjectives:** profound → deep/far-reaching/serious; renowned → well-known/respected; comprehensive → full/thorough; multifaceted → complex/layered; noteworthy → worth noting; meticulous → careful/detailed; intricate → complex/detailed; commendable → impressive/good; paramount → essential/most important; compelling → convincing/strong; invaluable → valuable/a big help; unwavering → steady/firm; ever-evolving → changing/shifting (or cut).
+**Moderate-severity adjectives:** profound → deep/far-reaching/serious; renowned → well-known/respected; comprehensive → full/thorough; multifaceted → complex/layered; noteworthy → worth noting; meticulous → careful/detailed; intricate → complex/detailed; commendable → impressive/good; paramount → essential/most important; compelling → convincing/strong; invaluable → valuable/a big help; unwavering → steady/firm; ever-evolving → changing/shifting (or cut); palpable → obvious/thick (or name what people could see or hear: "the tension was palpable" is the usual offender); unspoken → say what was left unsaid, or cut.
 
-**High-severity nouns:** realm → area/field; tapestry → mix/blend (especially "rich tapestry"); landscape → field/scene (when metaphorical); synergy → cooperation; paradigm → model/approach; cornerstone → foundation/basis; linchpin → key part; testament → proof/sign; treasure trove → wealth/goldmine; "diverse array" → range/mix (bare "diverse" is an ordinary word and stays); "natural beauty" → name what is actually there; plethora → plenty/many; myriad → many/countless; mosaic → mix/patchwork; symphony → combination/interplay; labyrinth → maze/tangle; cacophony → noise/din; kaleidoscope → shifting mix; odyssey → journey/long haul. Three more are flagged only when metaphorical: beacon → example/signal; bedrock → foundation/basis; crucible → test/proving ground. And "north star" → goal/priority, in the strategy-jargon sense.
+**High-severity nouns:** realm → area/field; tapestry → mix/blend (especially "rich tapestry"); landscape → field/scene (when metaphorical); synergy → cooperation; paradigm → model/approach; cornerstone → foundation/basis; linchpin → key part; testament → proof/sign; treasure trove → wealth/goldmine; "diverse array" → range/mix (bare "diverse" is an ordinary word and stays); "natural beauty" → name what is actually there; plethora → plenty/many; myriad → many/countless; mosaic → mix/patchwork; symphony → combination/interplay; labyrinth → maze/tangle; cacophony → noise/din; kaleidoscope → shifting mix; odyssey → journey/long haul. Three more are flagged only when metaphorical: beacon → example/signal; bedrock → foundation/basis; crucible → test/proving ground. And "north star" → goal/priority, in the strategy-jargon sense. Two lower-severity nouns that some models produce at over a hundred times the human rate: camaraderie → friendship/the way they worked together; unease → worry/nerves ("uneasiness" is a different, older word and is fine).
 
 **High-severity phrases:** "That being said" → However/But; "At its core" → Fundamentally/Essentially; "To put it simply" → Simply put/In short; "This underscores the importance of" → This shows why; "A key takeaway is" → The main point is; "From a broader perspective" → When you zoom out; "In today's rapidly evolving" → cut entirely and be specific; "In the realm of" → In/Within; "It is important to note that" → cut the preamble, state the fact; "Let's delve into" → just start the section; "Without further ado" → cut entirely; "In conclusion" / "In summary" / "To sum up" / "All in all" → just stop. The reader can see the piece ending; announcing it spends a sentence on navigation. Do not swap one signpost for another.
 
@@ -59,7 +59,7 @@ AI gravitates toward abstract containers: "framework," "methodology," "ecosystem
 
 ### Reintroduce adverbs
 
-AI underuses manner and degree adverbs. Add them to calibrate claims: "The system handles edge cases" → "The system mostly handles edge cases." Use adverbs like barely, almost, roughly, somewhat, reluctantly, carefully, gradually, suddenly, apparently, supposedly. But distribute them unevenly.
+Many models underuse manner and degree adverbs, but not all: GPT-4o overuses "barely" and "nearly" while Llama models avoid them, so the tell is an adverb that carries no judgment, not the count. Add one where it states your actual assessment: "The system handles edge cases" → "The system mostly handles edge cases." Candidates include roughly, somewhat, reluctantly, carefully, gradually, suddenly, apparently, supposedly. Never add one to look human, and distribute them unevenly. Three adverbs this prompt flags elsewhere stay out of this list: "quietly" (the "quiet" collocation), "actually" (credibility insistence) and "honestly" (the false-candour opener).
 
 ### Fix hedging uniformity
 
@@ -69,7 +69,7 @@ The problem is not individual hedges but uniform hedging. If every paragraph has
 
 - Don't repeat the same content word within three sentences unless for deliberate emphasis.
 - Replace generic nouns with specific ones.
-- Introduce at least one low-frequency but contextually precise word per paragraph.
+- Prefer the precise word to the expected one, but don't chase rare words for their own sake. Whether AI text is less lexically diverse than human text depends on the model (some current models score higher), so diversity is not a target in itself. What reads as machine-made is the same marked expression recurring, not a low count of distinct words.
 - Mix short plain words with longer ones. A passage of all long words reads as AI.
 - Use contractions selectively: some sentences with, some without.
 
@@ -97,6 +97,7 @@ The most characteristic move in LLM prose is the flip: state what something is *
 - The verb mirror: "AI carries the busywork. It never carries the judgment."
 - The staccato run: "Not a bug. Not a feature. A fundamental design flaw." Two or three clipped negations stacked before the resolution. What marks it is the noun phrase after *Not*: ordinary emphasis is adverbial ("Not now. Not ever." "Not bad. Not great.") and is fine.
 - The inline pair: "The work is judgement, not process." A copula, a short noun phrase, a comma, then the rejected twin closing the sentence. Watch the reflex rather than the single instance. One contrast is ordinary writing, and a sentence whose job is to fix a scope ("The unit is the collocation, not the word.") or correct a fact ("The response was 406, not 421.") is legitimate and stays. What marks the tell is reaching for the same binary in section after section, usually with an abstract noun on both sides and nothing concrete in either.
+- The graded contrast: "The role is less like a manager and more like a translator." "It's less about speed and more about trust." A plain description recast as a correction of a view nobody stated. Say what the thing is: "Most of the job is translating between the two teams." One "less about X, more about Y" is ordinary writing; reaching for it twice in one piece is the tic. The "less like ... more like" form is the stronger tell, at up to a hundred times the human rate in one current model.
 - The fragment: "Not because the person stopped mattering, but because the officer is reachable." A sentence that opens on *Not* and pivots on *but*, with the same word starting both halves ("Not because... but because," "Not to save time, but to save arguments," "Not a strategy, but a habit").
 
 In every case, make the positive claim once and let it stand. Don't negate an alternative just to knock it down. "It's about the judgment" says the whole thing on its own, and "The officer is the reachable point in the system" says it without the rejected half, which usually answers a charge nobody made. Two ordinary constructions look similar and are fine: a sentence where *Not* heads a real subject ("Not all of them agreed, but most did") and the mid-sentence correlative ("He did not go to the store, but to the park"). What marks the tell is the sentence opening on *Not* with both halves starting on the same word.
@@ -105,7 +106,8 @@ A related reflex is the **pronouncement frame**: fronting a plain claim with sca
 
 - The cleft: "What matters here is the restraint." / "The gap was where the work got lost."
 - The thesis opener: "The point of the redesign is to slow people down."
-- The maxim closer: ending a section on a short abstract summary like "The craft is mostly restraint."
+- The maxim closer: ending a section on a short abstract summary like "The craft is mostly restraint." Its balanced twin is "Gardening is as much about patience as technique."
+- The importance flag: "This distinction matters because...", "Knowing which type you have matters more than most beginners realize", or a heading "Why this matters". It announces that a point matters instead of showing the consequence. Give the consequence: "Teams mix the two up, and then the audit fails."
 
 Lead with the concrete thing instead. "The redesign slows people down" beats "The point of the redesign is to slow people down." Let the reader infer the significance rather than being told it.
 
@@ -138,6 +140,10 @@ Another frontier-model tic is the short question fired off as a setup, then answ
 A one-word question used as an opener promises candour and then delivers a platitude: "Honestly? Most people never follow up." "Frankly? It was never going to work." "Truthfully? Consistency beats talent." The fragment advertises a confession the sentence does not contain. Delete it and state the claim. If the point genuinely is contrarian, it will read as contrarian without the drumroll.
 
 The same performance also arrives appended to the end of a sentence, as a first-person admission tacked onto a statement that was already finished: "The redesign took nine months, and I'm not going to pretend that was the plan." "It shipped late, and I won't pretend otherwise." The clause adds no fact. It asks for credit for honesty while withholding the thing an honest sentence would contain. Cut it and let the statement stand, or replace it with what you are declining to pretend about: "It shipped six weeks late, and the cause was ours." Note the carve-out, because it decides most cases. Starting a sentence with the same words is ordinary hedging and perfectly human: "I'm not going to pretend I understand the tax code" qualifies a claim the writer is about to make. The tell is the appending, not the phrase.
+
+### End on the last fact, not a forecast
+
+Expert readers name the ending as one of their leading clues to AI text: model endings are "repetitive and overly optimistic summaries," while human ones stop more abruptly. The fixed forms sit in the final paragraph: "As the field continues to evolve, ...", "Looking ahead, ...", "One thing is clear: ...", "The future of X looks bright." End on the last concrete fact ("The council votes in March.") and cut the forecast unless it has a date or a number in it. The same phrases in the body of a piece, where they introduce a plan, are fine, and so is a neutral open question at the end of a news story ("It remains to be seen whether the Senate will take up the bill"): the tell is the upbeat summary, not the open ending.
 
 ### Vary sentence structure
 
@@ -210,11 +216,13 @@ Frustration, skepticism, disappointment, and concern are human. AI softens them.
 
 Instead of "This was a deeply frustrating experience," show frustration building through increasingly specific detail and shorter sentences. Use emotion words sparingly but precisely.
 
+Two fiction habits are the same failure in miniature. One names a feeling as an inventory: "She felt a mix of pride and sadness," "a strange blend of relief and dread," "the weight of the unspoken." Show the two feelings through what the person does or says. The other reaches for the stock phrases nearly every current model over-produces: "her voice barely above a whisper," "his heart hammering against his ribs," "the air thick with the scent of," "a smile playing on her lips," "eyes never leaving her face," "casting long shadows." Two more from the same lists, "couldn't shake the feeling" and "a profound sense of," are everyday English outside fiction, so treat them as tells only in a story. Replace each with what this character in this scene would actually do or notice. Rename a character called Elara or Kael, and don't let a model's default names (Emily, Sarah, Dr. Chen) through unless the source gave them. And don't explain what a line has already shown: "He slammed the door. He was angry." loses nothing when the second sentence goes.
+
 ### Cut unsolicited reassurance
 
 A recent habit, strongest in chat-tuned models, is to reassure the reader without being asked: "You're not alone." "You're not imagining it." "You're not broken." "It's not just you." Dropped into a business post, a doc, or an essay, it reads as therapeutic filler that performs empathy in place of saying anything. Cut it, or replace it with the specific thing worth saying. If the piece genuinely calls for reassurance, make it concrete ("plenty of teams hit this same wall in month two") rather than a canned "you're not X" formula.
 
-A close relative opens on a manufactured shared struggle: "If you've ever struggled with slow deploys, you know the pain." It fakes relatability with a canned second-person conditional before it has earned any. Lead with the concrete stake instead ("Slow deploys waste hours every week"). An ordinary conditional that recalls a real shared experience ("If you've ever been to Paris, you know the traffic") is fine; the tell is the empathy-hook opener bolted to the front of a piece.
+A close relative opens on a manufactured shared struggle: "If you've ever struggled with slow deploys, you know the pain." It fakes relatability with a canned second-person conditional before it has earned any. Lead with the concrete stake instead ("Slow deploys waste hours every week"). An ordinary conditional that recalls a real shared experience ("If you've ever been to Paris, you know the traffic") is fine; the tell is the empathy-hook opener bolted to the front of a piece. Its cousin is "If this sounds familiar, take heart" (or "you're not alone", "don't worry"). A callback is fine: "If this sounds familiar, it's because I wrote about it last week."
 
 The same family includes the instruction to feel something: "Let that sink in." "Read that again." "Do you want to sit with that for a while?" "Are you ready to go deeper?" These ask for weight instead of supplying it. Delete them. If the point deserves weight, give it a fact or a consequence: "Only three of the twelve shipped" needs no instruction after it.
 
@@ -279,6 +287,10 @@ Time and calendar nouns do it too, and they are easy to miss because they read a
 
 Replace generic formal words with vocabulary that reflects the author's actual expertise. A software engineer writes "race condition" not "concurrent access issue." Include at least one idiomatic expression per section. Use specific names, places, dates, and references rather than generic placeholders.
 
+### Use the plain defaults
+
+Readers recognise a model's formatting and attribution habits as quickly as its vocabulary. In reporting, write "says" every time rather than rotating through "notes," "explains" and "emphasizes." Don't open every bullet with a bold label and a colon, and don't put emoji at the start of headings or list items, unless the house style asks for it. In an essay, a blog post, an opinion piece or a cover letter, check that there is at least one place where a person is plainly speaking to a reader: a first-person position, a "you," or a question. Add one only where it carries a real position.
+
 ### Develop ideas unevenly
 
 Give more space to the ideas that matter most. AI gives equal airtime to every point. Allow occasional asides. Leave some transitions implicit. Vary argument granularity: some points get detailed evidence, others are asserted and moved on from.
@@ -297,10 +309,11 @@ If you see any of these, rewrite them:
 4. **Antithesis and negative parallelism:** "not just X, but also Y" → simple conjunction. "It's not X, it's Y," including the two-sentence version ("...is not Y. It is Z."), the fragment ("Not because X, but because Y."), and the inline pair used as a reflex rather than as a scope note ("The work is judgement, not process."), → state the point directly. See "Kill the antithesis reflex" above for the full family.
 5. **Elegant variation:** rotating synonyms for the same concept to avoid repetition. Repeat the plain noun when clarity demands it.
 6. **Despite-challenges formula:** "Despite its success, X faces challenges, including... Despite these challenges, X remains..." Replace with specific problems and specific responses.
-7. **Didactic disclaimers:** "it's important to note," "it's worth noting," "it's crucial to remember." Cut the preamble, state the fact.
+7. **Didactic disclaimers:** "it's important to note," "it's worth noting," "it's crucial to remember." Cut the preamble, state the fact. The same family includes the corrective disclaimer that guards against a reading nobody proposed ("Claims about its floating should be treated as religious tradition rather than as archaeological explanation") and the source-gap hedge ("is not widely documented," "based on the available information"). State what is known and stop; name a missing source only when its absence matters.
 8. **Travel-brochure puffery:** "nestled," "vibrant," "bustling," "rich cultural heritage," "breathtaking," "hidden gem," "fascinating glimpse." State geography and move on.
 9. **Nominalization chains:** "The implementation of the optimization of resource allocation" → "We optimized how resources were allocated."
 10. **Enumeration stacking:** Three consecutive three-item parallel lists. Vary list length, embed items in prose, add evaluative commentary.
+11. **Chatbot residue:** anything addressed to the person who asked for the text rather than to its reader: "Certainly! Here is a summary...", "Here's a polished version," "As an AI language model, I...", "as of my last knowledge cutoff," "Would you like me to expand on any section?" Delete it. Ordinary courtesy in a real email or chat ("I hope this helps," "Sure! Here's the Zoom link," "Here's the updated draft of the lease") is fine.
 
 ## Before you return the text
 
@@ -324,6 +337,9 @@ Reading these rules is not enough on its own; a quick verification pass catches 
 - The staccato negation run ("Not a bug. Not a feature."), the instructed analogy ("Think of it as a..."), and the announced procedure ("Let's break this down," "Let's unpack").
 - The appended candour disclaimer: a first-person admission tacked onto a finished statement ("..., and I'm not going to pretend that was the plan"). Starting a sentence that way is ordinary hedging; appending it is the tell.
 - Tidy self-reference ("as mentioned above," "as we discussed earlier") outside a genuine reference document.
+- An upbeat forecast in the last paragraph ("As the field continues to evolve," "Looking ahead," "One thing is clear:"), an importance flag ("This distinction matters because," "Why this matters"), the balanced maxim ("X is as much about A as B"), and a repeated graded contrast ("less about X and more about Y").
+- Chatbot residue ("Certainly! Here is...") and corrective disclaimers ("should be treated as X rather than as Y," "not widely documented").
+- In fiction: an emotion inventory ("a mix of pride and sadness"), the stock phrases ("voice barely above a whisper"), a default character name, and a sentence that explains what the previous one showed.
 - Vague-authority appeals ("studies show," "experts agree," "it is widely believed") left without a named source.
 - Any AI-flagged word left in that a plainer one would replace without loss.
 - Reality-insistence words (*real*, *actual*, *genuine*, *truly*) beyond a single deliberate use.

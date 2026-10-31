@@ -1,5 +1,32 @@
 # Changelog
 
+## 1.14.0 - 2026-10-30
+
+Sync with the humanizer rule set after a research round: a survey of 2024 to 2026 academic work on how model prose differs from human prose, with every candidate measured against 32 default-style pieces from current Claude models and against three human corpora before it shipped. The server added nine rules; this prompt now describes the same shapes, and two passages that contradicted the research are corrected.
+
+### Added
+
+- **The graded contrast**, a new bullet under "Kill the antithesis reflex": "less like a manager and more like a translator", and "less about X, more about Y" when it repeats. Server side: `BS-056`, `BS-057` (budget-only, because one use is ordinary writing).
+- **The importance flag and the balanced maxim**, under the pronouncement frame: "This distinction matters because...", "Why this matters", "X is as much about A as B". Server side: `BS-063`, `BS-064`.
+- **"End on the last fact, not a forecast"**, a new Structure subsection for the upbeat final-paragraph wrap-up ("As X continues to evolve," "Looking ahead," "Only time will tell"). Server side: `BS-062`, scoped to the final paragraph.
+- **Emotion inventories, stock fiction phrases and default names**, under "Build emotion through detail, not labels", plus the over-explained line. Server side: `BS-059`, `BS-060`.
+- **Corrective disclaimers** in anti-pattern 7 and **chatbot residue** as anti-pattern 11. Server side: `BS-061`, `BS-058`.
+- **"If this sounds familiar, take heart"** beside the manufactured-empathy opener, with the callback carve-out. Server side: the `BS-030` extension.
+- **"Use the plain defaults"**, a new Human texture subsection: "says" over rotating speech tags, no bold-label bullets or emoji headings by default, and one place in an essay where a person speaks to the reader.
+- Vocabulary: palpable, unspoken, camaraderie, unease. All of the above in the "Before you return" checklist.
+
+### Changed
+
+- **"Reintroduce adverbs"** no longer says AI uniformly underuses adverbs. The direction is model-specific (GPT-4o overuses "barely" and "nearly"; the Llama models avoid them), so the rule now says to add an adverb only where it carries a judgment, and it drops "barely" and "almost" from its examples.
+- **"Increase vocabulary diversity"** no longer asks for a low-frequency word in every paragraph. Whether model text is less lexically diverse than human text depends on the model, so diversity is not a target; the marked expression that recurs is.
+
+### Notes
+
+- **The self-contradiction check earned itself a fifth time**, twice: the two passages above contradicted the corrected research. On the server side, the same check found that `human_adverbs_to_reintroduce` recommended "quietly", "actually" and "honestly", all three of which other rules flag.
+- **Running the new rules over this prompt found a false positive before it shipped.** The first draft of the chatbot-residue rule fired on this prompt's own "They read as an AI tell", so "As an AI" now has to open a sentence and take a comma. Hard violations on the prompt are unchanged at the same 5 self-referential quotations, and the new rules fire only on the quoted examples.
+- **An independent review narrowed the server rules before they shipped,** and the prompt follows: "Only time will tell" and "It remains to be seen" are no longer listed as upbeat closers (they are neutral news endings), and the chatbot-residue item now names the ordinary chat courtesies that stay ("Sure! Here's the Zoom link," "Here's the updated draft of the lease"). "Couldn't shake the feeling" and "a profound sense of" are flagged in fiction only.
+- **Rejected for the prompt as well as the server:** the "is not merely / rather than simply" contrast (ordinary in human essays at 22.6 per 10k sentences) and the participial-clause and nominal-pair densities (the two largest published effects, absent or inverted in current Claude output).
+
 ## 1.13.0 - 2026-09-29
 
 Sync with the humanizer rule set. A B2 student exemplar written in worksheet cells passed the server's checker clean, and a human reviewer then flagged six phrases. The server added four rules, and this prompt now describes the same shapes.
