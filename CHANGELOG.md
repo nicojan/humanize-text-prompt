@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.15.0 - 2026-11-09
+
+Sync with the humanizer rule set after the portfolio-copy round. A month of Claude-written portfolio copy was reviewed by its owner, and 31 lines he flagged as AI-coded had all passed the server's checker. No regex rule could catch them without also flagging ordinary writing, so the server added them to its self-review rubric. This prompt now describes the same shapes.
+
+### Added
+
+- **"Cut the cause-to-benefit 'so' tail"**, a new Structure subsection: a mechanism followed by ", so" and the payoff it promises ("Quip updates itself, so a fix reached people within a day of shipping.").
+- **"Don't narrate your own backstory or praise your own habits"**, a new Tone subsection for bios, About pages and résumés ("came first, and so did the habit of," "keep the Figma files behind them tidy").
+- **"Write product copy for someone who has never used the product"**, a new Tone subsection: mechanism told in a chain of clauses, the product's internal words, the slogan with an unpicturable second half, vague counts, run-in labels and release history.
+- **The numeric caption** ("One count, four moments") and **the third-party verdict maxim** under "Cut the performative framing beat"; **ideas and artifacts in maxims** ("the answer usually costs you the design you arrived with") under "Give actions a real agent". All of the above in the "Before you return" checklist.
+
+### Notes
+
+- **The self-contradiction check found two near-conflicts, and both are scoped inline rather than rewritten.** "Remove or vary transitions" recommends "So," as a human transition, so the new rule targets only the appended ", so [payoff]" tail and says the sentence-initial "So," is fine. "Prefer subordination over coordination" asks for "while" and "since" clauses, so the product-copy rule says one subordinate clause is fine and three stacked onto a mechanism is the problem. "Use domain-specific vocabulary" is distinguished from a product's internal labels in the same paragraph.
+- **Rejected on the server and not mechanized anywhere:** the numeric caption as a detector. It measured zero on four human corpora, then an adversarial review found about 100 legitimate terse lines with the same shape ("Two tablets, every four hours.", "Two adults, one child."). The prompt says to judge it by whether it is selling something.
+- Hard violations on this prompt are unchanged at the same 5 self-referential quotations, and no new structural finding appears.
+
 ## 1.14.0 - 2026-10-30
 
 Sync with the humanizer rule set after a research round: a survey of 2024 to 2026 academic work on how model prose differs from human prose, with every candidate measured against 32 default-style pieces from current Claude models and against three human corpora before it shipped. The server added nine rules; this prompt now describes the same shapes, and two passages that contradicted the research are corrected.
