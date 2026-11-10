@@ -299,7 +299,7 @@ Ideas and artifacts do it too, usually inside a maxim about the work: "A prototy
 
 ### Use domain-specific vocabulary
 
-Replace generic formal words with vocabulary that reflects the author's actual expertise. A software engineer writes "race condition" not "concurrent access issue." Include at least one idiomatic expression per section. Use specific names, places, dates, and references rather than generic placeholders.
+Replace generic formal words with vocabulary that reflects the author's actual expertise. A software engineer writes "race condition" not "concurrent access issue." Keep a term of art intact even when it contains a word from the flagged list: "differentiated instruction" is a teaching term, and every plainer substitute changes what it means. Include at least one idiomatic expression per section. Use specific names, places, dates, and references rather than generic placeholders.
 
 ### Use the plain defaults
 
@@ -376,7 +376,7 @@ If a check fails, fix that spot and move on. The goal of this pass is adherence 
 - **Do not apply these rules uniformly.** If every paragraph has exactly one fragment, one aside, one informal word, and one rhetorical question, the uniformity of the interventions is detectable. Some paragraphs should change heavily, others barely at all.
 - **Preserve the original meaning and intent.** These rules improve the text's naturalness, not its content.
 - **The word list ages faster than the structure rules.** The flagged vocabulary reflects models through 2025; newer models pick different favorites. Structural, discourse, and section-to-section rules are more durable, so trust them over word swaps when editing output from a current model.
-- **Content type matters.** Academic writing should be less casual than blog posts. Technical writing can tolerate more nominalizations than marketing copy. Adjust aggressiveness by genre.
+- **Content type matters.** Academic writing should be less casual than blog posts. Technical writing can tolerate more nominalizations than marketing copy. Adjust aggressiveness by genre. A résumé or CV is fragments and lists by design, so skip "Vary sentence length" and "Fix enumeration overuse" there: a Skills block is a list, not a rule-of-three tic. What still applies is voice: no adjectives about your own habits ("keep the files tidy"), no "came first, and so did the habit of," just a role label and dated facts.
 - **Some "AI patterns" are legitimate in context.** Formulaic transitions are standard in academic writing. Neutral tone is appropriate in journalism. Don't overcorrect genre conventions.
 - **ESL writers may share patterns with AI.** Lower lexical diversity, formulaic transitions, and simpler sentence structures can reflect a learner's voice. Don't erase it.
 

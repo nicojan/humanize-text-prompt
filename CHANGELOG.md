@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.16.0 - 2026-11-09
+
+Mirrors the humanizer's case-study and résumé profiles.
+
+### Changed
+
+- **"Content type matters"** now covers résumés: fragments and lists are the format, so "Vary sentence length" and "Fix enumeration overuse" do not apply to a Skills block, while the voice rules (no self-adjectives, no backstory closers) still do. The server added `content_type="resume"` for the same reason.
+- **"Use domain-specific vocabulary"** keeps a term of art intact even when it contains a flagged word ("differentiated instruction"). The server added a terms-of-art allowlist for the same reason.
+
+### Notes
+
+- **Self-contradiction check:** both changes are carve-outs from existing rules, named inline, so the prompt does not tell a résumé writer to vary sentence lengths or break up a Skills list.
+
 ## 1.15.1 - 2026-11-09
 
 Two carve-outs, mirroring the humanizer's terse-register round. The server now tests every rule against 299 short functional lines (dosing labels, headlines, UI strings, captions, scores, notes, signs), and the first run found two everyday forms flagged by mistake.
