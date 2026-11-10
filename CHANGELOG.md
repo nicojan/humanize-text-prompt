@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.15.1 - 2026-11-09
+
+Two carve-outs, mirroring the humanizer's terse-register round. The server now tests every rule against 299 short functional lines (dosing labels, headlines, UI strings, captions, scores, notes, signs), and the first run found two everyday forms flagged by mistake.
+
+### Changed
+
+- **"End on the last fact, not a forecast"**: a weekday, "tonight" or "tomorrow" counts as a concrete time, like a date or a number. "Looking ahead, the forecast calls for rain through Thursday" is a weather report.
+- **Vague authorities** (anti-pattern 2): a news headline's trailing attribution ("Not a recession, but close, economists say") is fine, because the story names the sources. The same frame with a full stop in body prose is still the appeal to cut.
+
 ## 1.15.0 - 2026-11-09
 
 Sync with the humanizer rule set after the portfolio-copy round. A month of Claude-written portfolio copy was reviewed by its owner, and 31 lines he flagged as AI-coded had all passed the server's checker. No regex rule could catch them without also flagging ordinary writing, so the server added them to its self-review rubric. This prompt now describes the same shapes.
