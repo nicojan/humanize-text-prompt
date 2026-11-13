@@ -6,7 +6,7 @@ Mirrors the humanizer's repair round, PR 2, which changed how the server's write
 
 ### Changed
 
-- **The final check stays small.** "Before you return the text" now says to rewrite only the spot a check flags, run the checks once more, and stop after two rounds, matching the server's loop instruction.
+- **The final check stays small.** "Before you return the text" now says to rewrite only the spot a check flags and run the checks again. Nothing on the prohibitions list may survive, however many rounds that takes, and the follow-the-content checks stop after two rounds, matching the server's loop instruction.
 - **The copula rule sets no quota.** Three sentences in a row with "is/are/was" as the main verb now prompt a check for a stronger verb, where the rule used to require restructuring at least one. Not every copula should go, matching the server.
 
 ## 1.17.0 - 2026-11-13

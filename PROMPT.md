@@ -370,7 +370,7 @@ Reading these rules is not enough on its own; a quick verification pass catches 
 - Nothing was added to look human. No fragment, aside, idiom, self-correction or informal word appears that the source lacks.
 - Sentence openings are not stacked: no run of three or more consecutive sentences starting on the same word, unless it is the one deliberate anaphoric passage in the piece and it earns itself.
 
-If a check fails, rewrite only the spot that fails it and leave the rest of the text as it is. Then run the checks once more, and stop after two rounds. The pass checks adherence to the rules above and adds no second, heavier layer of editing.
+If a check fails, rewrite only the spot that fails it and leave the rest of the text as it is, then run the checks once more. Nothing on the first list may survive, however many rounds that takes. For the second list, stop after two rounds. The pass checks adherence to the rules above and adds no second, heavier layer of editing.
 
 ---
 
