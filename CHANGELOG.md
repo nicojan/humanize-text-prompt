@@ -1,5 +1,39 @@
 # Changelog
 
+## 1.17.0 - 2026-11-13
+
+Mirrors the humanizer's repair round, PR 1. A review of the server's guide found it recommending forms its own checker flags, asking for quotas, and asking the model to perform human traits (fragments for rhythm, staged self-corrections, invented asides). This prompt carried most of the same advice, so it now matches the server's restraint stance: keep what the source has, cut what a model added, add nothing to look human.
+
+### Added
+
+- **"Facts come from the user or the source"**, a new section after the core principle, mirroring the server's extended `AR-001`. A rewrite adds no fact and neither softens nor hardens a claim. When drafting text read as fact about a real person, organisation, product or source (a cover letter, a bio, a case study, a report, a citation), every name, number, date, quotation and first-person experience comes from the user or the source, and a missing one becomes a marked placeholder such as [number]. Fiction and requests for an invented example are exempt. The "Before you return" checklist gains an "Invented specifics" item.
+- **The copula flip counted across the piece**, under "Kill the antithesis reflex", in anti-pattern 4 and in the checklist, mirroring `BS-066`: contracted or not, closed by a period or a semicolon, one can be an ordinary correction and two or more is the reflex.
+
+### Changed
+
+- **Sentence length follows the content.** "Vary sentence length" (a sentence under 8 words and one over 25 in most paragraphs, "Use fragments for emphasis", one-sentence paragraphs) is now "Let sentence length follow the content": no fragments or one-line questions for rhythm, paragraph length follows the point, and a flat run is fixed by recombining the repeated shape.
+- **Sections follow their job.** "Vary style from section to section" is now "Let each section read the way its job needs": fix the repeated closer, contrast or transition, and don't make sections differ to show contrast. The core principle names the same repeated shapes, and the priority sentence now puts structural shapes and discourse first, then tone, above vocabulary.
+- **Em-dash replacement.** A pivot becomes a period, or a semicolon when the clauses are closely joined; a dash that staged a reveal becomes the point stated first. The section is now "Punctuate for the sentence": a colon introduces a list or a definition and never stages a reveal, and the "let punctuation drift" advice is replaced with keeping the source's choices.
+- **Hedges and adverbs keep the source's calibration.** "Remove qualifiers from at least half" now swaps a stock qualifier for a plain one that marks the same limit. "Reintroduce adverbs" (whose example softened a claim) is now "Keep the adverbs that calibrate a claim"; "somewhat" left the list with it. "Vary confidence level" is now "Keep the source's confidence".
+- **Same word for the same thing.** "Increase vocabulary diversity" (no repeat within three sentences, rare words) is now "Use the same word for the same thing", in line with anti-pattern 5.
+- **Transitions and subordination.** "Remove or vary transitions" is now "Cut stock transitions": start the next point, or use a plain bridge ("So", "But", "Then"). "Replace at least one 'and' per paragraph" now asks for a subordinator where the relation is causal, temporal, conditional or concessive.
+- **Texture is restraint.** Section 5 is now "Texture, with restraint". Idioms, asides, friction, self-corrections and contractions are kept where the source has them and never added; specific names come from the source, with a placeholder when drafting; a first-person position is added only where the user or the source supplies it.
+- **Smaller rewrites.** Readability loses its Flesch bands and keeps "write for the reader". Exclamation marks lose the per-section count. Negative emotions follow the source instead of a mood per paragraph. "And"/"But" openers and clause order serve the point. The that-clause fix no longer ends on a colon reveal. Enumeration no longer asks for added evaluative commentary. Lexicon alternatives "Simply put/In short" and "The main point is" are replaced, and "pivotal" points to the "plays a pivotal role" fix.
+
+### Removed
+
+- "Use fragments for emphasis. 'Not always.' after a long sentence."; "Use rhetorical questions occasionally"; "Start some sentences with 'And' or 'But.' That reads as a strong human signal."
+- "Simulate cognitive load effects" ("Allow minor omissions", "Let some sections be better-written than others") and "Insert self-monitoring traces" (the staged "The data shows, well, suggests", confidence that shifts).
+- "Include at least one idiomatic expression per section." and "Use specific names, places, dates, and references rather than generic placeholders."
+- "Here's the thing" and "The catch is" as recommended transitions. The withheld-insight carve-out, which had said "Here's the thing" was recommended elsewhere in this prompt, now says to leave it where the writer used it and not to add it.
+- "Use pronouns with occasionally loose reference."
+- "profound" from the adjective list, matching the server, which dropped it at 8.49 false positives per 10,000 sentences. "nestle", "renowned", "diverse array" and "natural beauty", which the server now flags, were already listed here.
+
+### Notes
+
+- **Self-contradiction check.** Each removed and added rule's key terms were grepped and their sections read. Beyond the items in the brief, the check found six more places recommending what the new rules ban: the adverb example that softened a claim, the that-clause example's colon reveal, the "Vary sentiment across paragraphs" mood quota, "Add evaluative commentary between items" (twice), "Keep a caveat that complicates your own thesis" (friction the source may lack), and the checklist and caveats that asked for spread and unevenly placed fragments and asides. The résumé caveat pointed at the renamed sentence-length section and was updated.
+- **Checker comparison, old against new.** Hard violations are unchanged at the same 5 self-referential quotations. New `must_clear` findings are all quoted examples or the server's own `AR-001` wording: one `BS-066` budget overrun from the flip examples that illustrate it, and one low-confidence `rule_of_three_density` on the mirrored `AR-001` lists.
+
 ## 1.16.0 - 2026-11-09
 
 Mirrors the humanizer's case-study and résumé profiles.

@@ -8,11 +8,17 @@ Edit the text below "=====" following these rules. Your goal is to make the text
 
 ## Core principle
 
-The single most detectable property of AI text is **consistency**: consistent sentence length, consistent transitions, consistent hedging, consistent tone. Human text is locally inconsistent while staying globally coherent. Apply every rule below selectively.
+The single most detectable property of AI text is **consistency**, and it shows most as a repeated shape: the same closer, the same contrast, the same transition in every section. Human text is locally inconsistent while staying globally coherent. Apply every rule below selectively.
 
 Where the signal lives has shifted as models improve. Frontier models now match human writing on the surface statistics that are easy to count: word frequencies, part-of-speech mix, readability scores. They still diverge in two harder places. One is the flow of the text, the moment-to-moment unpredictability of which word comes next. The other is variation between sections: a human writer's style shifts between the opening, the middle, and the close, while a model holds one even fingerprint the whole way through.
 
-This changes how to prioritize. Swapping AI-flagged words for plainer ones is necessary hygiene, but its ceiling is low, and newer models are already crossing it. Structure, rhythm, discourse, and section-to-section variation are the durable signals. When you have to choose where to spend effort, weight those above vocabulary substitution.
+This changes how to prioritize. Swapping AI-flagged words for plainer ones is necessary hygiene, but its ceiling is low, and newer models are already crossing it. The stock structural shapes (closers, contrast pairs, framing beats) and the habits of discourse are the durable signals, followed by tone. When you have to choose where to spend effort, weight those above vocabulary substitution, and add nothing to the text just to make it look human.
+
+## Facts come from the user or the source
+
+These rules change how a text is written, never what it says. When you rewrite, keep every claim, name, number, date, quotation and stance. Add no fact, and neither soften nor harden a claim, so a hedge the source has stays and a firm claim stays firm. If a rule below cannot be applied to a passage without changing its meaning, skip that rule there.
+
+The same holds when you draft text that will be read as fact about a real person, organisation, product or source (a cover letter, a bio, a case study, a report, a citation). Every name, number, date, quotation and first-person experience in it comes from the user or the source. When the piece needs one that is missing, leave a marked placeholder such as [number] so the draft still arrives, and ask only when the draft cannot stand without it. Never invent one to make the text feel specific. Fiction, and requests that ask for an invented example, are exempt.
 
 ## 1. Vocabulary
 
@@ -24,13 +30,13 @@ These words appear at statistically elevated rates in AI text. Replace them with
 
 **Moderate-severity verbs:** navigate → work through/handle; streamline → simplify/tighten; endeavor → try/attempt; optimize → improve/fine-tune; spearhead → lead/drive; catalyze → trigger/spark; incentivize → encourage/reward; operationalize → put into practice; conceptualize → think through/frame; harness → use/tap/draw on; illuminate → explain/show; differentiate → distinguish/tell apart; refine → improve/tweak; surpass → beat/exceed; boast → has/offers (the tell is "boasts a/an/over X" as a feature brag; "boast of" and "boast about" are ordinary English and stay); nestle ("nestled in the heart of") → sits/stands/is; resonate → land/stick/ring true; unlock → open up/make possible; unleash → release/set off; embark → start/begin; empower → let/enable/help; elevate → raise/lift/improve (the tell is "elevate your X" and "elevate the experience"; literal raising, and "elevated rates", stay).
 
-**High-severity adjectives:** robust → strong/solid; cutting-edge → new/advanced (or cut); innovative → new/creative (or cut); seamless → smooth/easy; pivotal → key/central; transformative → significant (or cut); game-changing → significant (or cut); crucial → important/essential; holistic → complete/integrated; groundbreaking → new/first (or describe why); unparalleled → rare/exceptional (or cut).
+**High-severity adjectives:** robust → strong/solid; cutting-edge → new/advanced (or cut); innovative → new/creative (or cut); seamless → smooth/easy; pivotal → key/central (inside "plays a pivotal role," rewrite the verb instead; see the frame-opener tics); transformative → significant (or cut); game-changing → significant (or cut); crucial → important/essential; holistic → complete/integrated; groundbreaking → new/first (or describe why); unparalleled → rare/exceptional (or cut).
 
-**Moderate-severity adjectives:** profound → deep/far-reaching/serious; renowned → well-known/respected; comprehensive → full/thorough; multifaceted → complex/layered; noteworthy → worth noting; meticulous → careful/detailed; intricate → complex/detailed; commendable → impressive/good; paramount → essential/most important; compelling → convincing/strong; invaluable → valuable/a big help; unwavering → steady/firm; ever-evolving → changing/shifting (or cut); palpable → obvious/thick (or name what people could see or hear: "the tension was palpable" is the usual offender); unspoken → say what was left unsaid, or cut.
+**Moderate-severity adjectives:** renowned → well-known/respected; comprehensive → full/thorough; multifaceted → complex/layered; noteworthy → worth noting; meticulous → careful/detailed; intricate → complex/detailed; commendable → impressive/good; paramount → essential/most important; compelling → convincing/strong; invaluable → valuable/a big help; unwavering → steady/firm; ever-evolving → changing/shifting (or cut); palpable → obvious/thick (or name what people could see or hear: "the tension was palpable" is the usual offender); unspoken → say what was left unsaid, or cut.
 
 **High-severity nouns:** realm → area/field; tapestry → mix/blend (especially "rich tapestry"); landscape → field/scene (when metaphorical); synergy → cooperation; paradigm → model/approach; cornerstone → foundation/basis; linchpin → key part; testament → proof/sign; treasure trove → wealth/goldmine; "diverse array" → range/mix (bare "diverse" is an ordinary word and stays); "natural beauty" → name what is actually there; plethora → plenty/many; myriad → many/countless; mosaic → mix/patchwork; symphony → combination/interplay; labyrinth → maze/tangle; cacophony → noise/din; kaleidoscope → shifting mix; odyssey → journey/long haul. Three more are flagged only when metaphorical: beacon → example/signal; bedrock → foundation/basis; crucible → test/proving ground. And "north star" → goal/priority, in the strategy-jargon sense. Two lower-severity nouns that some models produce at over a hundred times the human rate: camaraderie → friendship/the way they worked together; unease → worry/nerves ("uneasiness" is a different, older word and is fine).
 
-**High-severity phrases:** "That being said" → However/But; "At its core" → Fundamentally/Essentially; "To put it simply" → Simply put/In short; "This underscores the importance of" → This shows why; "A key takeaway is" → The main point is; "From a broader perspective" → When you zoom out; "In today's rapidly evolving" → cut entirely and be specific; "In the realm of" → In/Within; "It is important to note that" → cut the preamble, state the fact; "Let's delve into" → just start the section; "Without further ado" → cut entirely; "In conclusion" / "In summary" / "To sum up" / "All in all" → just stop. The reader can see the piece ending; announcing it spends a sentence on navigation. Do not swap one signpost for another.
+**High-severity phrases:** "That being said" → However/But; "At its core" → Fundamentally/Essentially; "To put it simply" → cut the preamble and say it simply; "This underscores the importance of" → This shows why; "A key takeaway is" → One lesson is, or state the lesson; "From a broader perspective" → When you zoom out; "In today's rapidly evolving" → cut entirely and be specific; "In the realm of" → In/Within; "It is important to note that" → cut the preamble, state the fact; "Let's delve into" → just start the section; "Without further ado" → cut entirely; "In conclusion" / "In summary" / "To sum up" / "All in all" → just stop. The reader can see the piece ending; announcing it spends a sentence on navigation. Do not swap one signpost for another.
 
 ### Watch the "quiet" collocation
 
@@ -40,7 +46,7 @@ A recent habit is to make everything quietly something. "Quiet confidence." "Qui
 
 AI-assisted writing often vouches for its own account by insisting the thing is *real*, *actual*, *genuine*, or *truly* so. A human rarely needs to say their own work is real; the specifics carry that. The tell is density, not any single use: the same reality word recurring across a piece reads as a writer arguing for their own credibility.
 
-If *real* / *really* / *actual* / *actually* / *genuine* / *truly* / *authentic* shows up three or more times, cut all but at most one. Replace each with the specific that earned it: "a real engagement" → "a live, mid-build engagement"; "the real flow" → "the flow the operators actually follow." Keep a single use only where it draws a genuine contrast, such as real versus hypothetical, and make that contrast explicit. Ordinary compounds like *real-time*, *real estate*, and *real-world* do not count.
+If *real* / *really* / *actual* / *actually* / *genuine* / *truly* / *authentic* shows up three or more times, cut all but at most one. Replace each with the specific that earned it: "a real engagement" → "a live, mid-build engagement"; "the real flow" → "the flow the operators actually follow." Keep a single use only where it draws a contrast, such as real versus hypothetical, and make that contrast explicit. Ordinary compounds like *real-time*, *real estate*, and *real-world* do not count.
 
 ### Fix nominalization
 
@@ -57,41 +63,42 @@ Two or more "the [noun] of [noun]" phrases in one sentence is a strong AI signal
 
 AI gravitates toward abstract containers: "framework," "methodology," "ecosystem," "landscape," "stakeholders." Human writers name the concrete thing. "Factors" → name them. "Challenges" → describe one. "Stakeholders" → say who. "Resources" → specify which.
 
-### Reintroduce adverbs
+### Keep the adverbs that calibrate a claim
 
-Many models underuse manner and degree adverbs, but not all: GPT-4o overuses "barely" and "nearly" while Llama models avoid them, so the tell is an adverb that carries no judgment, not the count. Add one where it states your actual assessment: "The system handles edge cases" → "The system mostly handles edge cases." Candidates include roughly, somewhat, reluctantly, carefully, gradually, suddenly, apparently, supposedly. Never add one to look human, and distribute them unevenly. Three adverbs this prompt flags elsewhere stay out of this list: "quietly" (the "quiet" collocation), "actually" (credibility insistence) and "honestly" (the false-candour opener).
+Many models underuse manner and degree adverbs, but not all: GPT-4o overuses "barely" and "nearly" while Llama models avoid them, so the tell is an adverb that carries no judgment, whatever the count. Where the source says how far a claim holds ("mostly," "barely," "roughly"), keep that adverb, because it carries the writer's assessment. Don't add one the source lacks, since that softens or hardens the claim. Generic intensifiers such as "significantly" and "effectively" carry no judgment; cut them, or give the figure the source has. Three adverbs this prompt flags elsewhere are never the fix: "quietly" (the "quiet" collocation), "actually" (credibility insistence) and "honestly" (the false-candour opener).
 
 ### Fix hedging uniformity
 
-The problem is not individual hedges but uniform hedging. If every paragraph has a qualifier ("Generally speaking," "Typically," "Tends to," "Broadly speaking," "To some extent," "Arguably"), remove qualifiers from at least half. Human writers commit firmly to some claims and hedge others; the variation itself is the signal.
+A single hedge is ordinary; uniform hedging is the tell. If every paragraph carries a stock qualifier ("Generally speaking," "Typically," "Tends to," "Broadly speaking," "To some extent," "Arguably"), the text reads as AI. Keep each hedge the source has, because it marks how sure the writer is, and dropping it hardens the claim. Swap a stock wording for a plain one that marks the same limit, so "Typically" becomes "Usually," and cut a qualifier only where it marks no limit the source states. Where several stack on one claim, keep the one that marks the source's limit.
 
-### Increase vocabulary diversity
+### Use the same word for the same thing
 
-- Don't repeat the same content word within three sentences unless for deliberate emphasis.
+- Use the same word for the same thing. Rotating synonyms to avoid a repeat is its own tell (see "Elegant variation" below).
 - Replace generic nouns with specific ones.
-- Prefer the precise word to the expected one, but don't chase rare words for their own sake. Whether AI text is less lexically diverse than human text depends on the model (some current models score higher), so diversity is not a target in itself. What reads as machine-made is the same marked expression recurring, not a low count of distinct words.
+- Don't reach for a rare word for its own sake. Whether AI text is less lexically diverse than human text depends on the model (some current models score higher), so diversity is not a target. What reads as machine-made is the same marked expression recurring; a low count of distinct words does not.
 - Mix short plain words with longer ones. A passage of all long words reads as AI.
-- Use contractions selectively: some sentences with, some without.
+- Keep the source's contractions where they are. Uneven use is normal, so don't even it out or manufacture it.
 
 ## 2. Structure
 
-### Vary sentence length
+### Let sentence length follow the content
 
-AI concentrates sentence lengths in a narrow band with low standard deviation. The average length is not itself the tell, and studies disagree on which direction it even runs; the reliable signal is low *variance*. So don't push toward a target length. Widen the spread instead: include at least one sentence under 8 words and one over 25 in most paragraphs. Not every paragraph, though; some can stay uniform for pacing.
+AI concentrates sentence lengths in a narrow band. The average length is not itself the tell, and studies disagree on which direction it even runs. Don't aim for an average or a spread. A sentence runs as long as the thought it carries, so don't plan a mix of short and long sentences for each paragraph; some paragraphs will read evenly, and that is fine.
 
-- Use fragments for emphasis. "Not always." after a long sentence. One per section at most.
+- Keep a fragment only where the content calls for one, such as the answer to a question someone asked, or speech. A fragment placed after a long sentence to create a beat reads as performed rhythm, and so does a one-line question added for effect. Fold either into the sentence before it.
 - Allow long sentences when the thought demands it. Sometimes a single long sentence with embedded clauses reads more naturally than three short ones.
-- Vary paragraph length. One-sentence paragraphs are fine. So are five-sentence paragraphs.
+- Let paragraph length follow the content too. A point that needs one sentence gets a one-sentence paragraph, and a point that needs six sentences gets six. Don't set a single line apart for impact when its point belongs in the paragraph before.
+- When a run of sentences sounds flat, look for one shape repeated, and recombine or split those sentences by meaning. Adding short sentences to break up the run does not fix it.
 
-### Vary style from section to section
+### Let each section read the way its job needs
 
-This is one of the most durable signals, and it works above the level of the sentence. A human writer does not hold a constant style across a whole piece: the opening might be brisk and declarative, a middle section dense and qualified, the close short and plain. Left alone, a model keeps the same texture from the first line to the last. So vary whole sections against each other. Varying sentences within a paragraph is not enough by itself. Make one stretch terse and concrete, another more flowing and reflective. If every section carries the same rhythm, the same paragraph length, and the same density, the piece reads as machine-made even when no single sentence does.
+This works above the level of the sentence. Different parts of a piece do different jobs, and a human writer's prose follows them. An introduction reads more easily because its reader needs the way in, a technical core runs denser, and a set of instructions can stay short and uniform. Left alone, a model keeps the same texture from the first line to the last, and the most visible sign is one shape repeated: the same closer, the same contrast, the same transition in every section. Fix the repeated shape, and let each section's texture follow its job. Don't make sections differ just to show contrast; variation added for its own sake is as mechanical as none.
 
 ### Kill the antithesis reflex
 
 The most characteristic move in LLM prose is the flip: state what something is *not*, then pivot to what it *is*. It comes in several surface forms, and single-sentence fixes miss the two-sentence versions.
 
-- The copula flip: "It's not about the tools. It's about the judgment."
+- The copula flip: "It's not about the tools. It's about the judgment." It comes contracted or not ("It isn't a tool. It's a partner." "It is not a feature; it is a platform."), closed by a period or a semicolon. Count it across the whole piece. One can be an ordinary correction ("It isn't Tuesday. It's Wednesday."); two or more is the reflex, even when each looks reasonable where it stands.
 - The hedged aphorism: "The hard part is rarely the code. It's deciding what to build."
 - The disclaimer reversal: "I won't pretend this is easy. But it's worth it."
 - The verb mirror: "AI carries the busywork. It never carries the judgment."
@@ -115,7 +122,7 @@ Lead with the concrete thing instead. "The redesign slows people down" beats "Th
 
 A cluster of fixed openers front a point with empty scaffolding instead of stating it. "When it comes to X, ..." announces a topic and says nothing about it; cut the preamble and make the claim, so "When it comes to pricing, we keep it simple" becomes "Our pricing is simple." "In a world where...", "In an era of..." and the imperative version, "Imagine a world where...", open on a sweeping generalization to sound weighty; open on the specific instead. "That's where X comes in" stages a reveal before naming a product; say what it does directly. And "plays a pivotal role in" (or "a key role in," "a central role in") pads a plain verb, so "Monitoring plays a pivotal role in catching problems" becomes "Monitoring catches problems early." Two more in the same family announce a procedure or hand the reader a comparison instead of doing the work. "Let's break this down." "Let's unpack what this means." "Let's dive into the details." The next paragraph is the breakdown; saying it is coming adds a sentence and no information, so delete the announcement and start. And "Think of it as a Swiss Army knife for your workflow" tells the reader to hold an analogy rather than showing why it fits, and the analogy is usually generic enough to drop into any topic. Give the comparison a job by making the mapping explicit, or describe the thing plainly. Note the scope here, because the neighbouring phrasings are ordinary: "let's be honest" and "let's explore the options" are stance and collaboration, not procedure, and they stay. These sit at the start of a sentence or follow a fixed template, so they are easy to catch once you watch the opening words.
 
-A related move spends a sentence announcing that an insight is coming: "Here's the kicker." "Here's the part most people miss." "What nobody tells you is..." The setup promises a payoff the payoff rarely earns. Lead with the insight itself; if it is genuinely counterintuitive, the reader will notice. Note the narrow scope: the bare marker "Here's the thing" is ordinary casual speech and is recommended elsewhere in this prompt as a human transition. What marks this one is the withheld-insight claim bolted onto it.
+A related move spends a sentence announcing that an insight is coming: "Here's the kicker." "Here's the part most people miss." "What nobody tells you is..." The setup promises a payoff the payoff rarely earns. Lead with the insight itself; if it is counterintuitive, the reader will notice. The target here is the withheld-insight claim. The bare marker "Here's the thing" is ordinary casual speech, so leave it where the writer used it, and don't add it as a transition either (see "Cut stock transitions" under Discourse).
 
 ### Cut the performative framing beat
 
@@ -147,15 +154,13 @@ Expert readers name the ending as one of their leading clues to AI text: model e
 
 ### Vary sentence structure
 
-- Alternate between simple declaratives and complex constructions.
-- Front-load modifiers occasionally: "Efficiently, and with almost no latency, the system processes data."
-- Start some sentences with "And" or "But." That reads as a strong human signal.
-- Use rhetorical questions occasionally: "But does this actually hold up?"
-- Vary clause ordering to shift emphasis: "Despite the cost, they went ahead" vs. "They went ahead, despite the cost."
+- Choose the construction the thought needs, simple or complex. A run of sentences built the same way is the tell, whatever their length.
+- Start a sentence with "And" or "But" where it joins on to the one before. Don't add one for effect.
+- Order clauses so the emphasis falls where the point is. "Despite the cost, they went ahead" stresses the decision; "They went ahead, despite the cost" stresses the cost.
 
 ### Reduce that-clause subjects
 
-AI produces "That the system performed well is noteworthy." Human writers almost never start sentences this way. Restructure: "The system performed well, which is worth noting" or "The benchmark results are clear: the new framework handles mixed data faster."
+AI produces "That the system performed well is noteworthy." Human writers almost never start sentences this way. Restructure it as "The system performed well, which is worth noting," or state the fact and stop ("The system performed well.").
 
 ### Cut trailing participial clauses
 
@@ -167,7 +172,7 @@ The past-participle cousin of the trailing "-ing" tail is a whole verbless sente
 
 ### Cut the cause-to-benefit "so" tail
 
-Product and portfolio copy picks up a brochure habit: state a mechanism, then append ", so" and the payoff it promises the reader. "Quip updates itself, so a fix reached people within a day of shipping." "Only the width changes, so the window stays under the menu-bar icon and nothing jumps away from the pointer." The second half exists to tell you the first half was good. Keep one half, usually the fact or what the user actually sees, and cut the sales pitch. Keep the "so" when the reader needs the causal link to follow the argument ("The server was down, so the backup ran from the laptop."). Starting a sentence with "So," as a transition is fine too; that is the informal connective recommended under Discourse.
+Product and portfolio copy picks up a brochure habit: state a mechanism, then append ", so" and the payoff it promises the reader. "Quip updates itself, so a fix reached people within a day of shipping." "Only the width changes, so the window stays under the menu-bar icon and nothing jumps away from the pointer." The second half exists to tell you the first half was good. Keep one half, usually the fact or what the user actually sees, and cut the sales pitch. Keep the "so" when the reader needs the causal link to follow the argument ("The server was down, so the backup ran from the laptop."). Starting a sentence with "So," as a transition is fine too; that is one of the plain bridges under "Cut stock transitions."
 
 ### Replace periphrastic verbs with direct verbs
 
@@ -192,7 +197,7 @@ The inflating variant pairs the substitute verb with an abstract noun that asser
 
 ### Fix enumeration overuse
 
-Three-item parallel lists in sequence are a strong AI signal. Vary list lengths: sometimes two items, sometimes four. Embed items in flowing prose rather than enumerating. Add evaluative commentary between items.
+Three-item parallel lists in sequence are a strong AI signal. Vary list lengths: sometimes two items, sometimes four. Embed items in flowing prose rather than enumerating, and where the source ranks them, say so.
 
 Replace coordination with subordination when one item matters more: "The team designed, developed, and deployed the system" → "The team designed and deployed the system; developing it took most of the time."
 
@@ -200,9 +205,11 @@ Replace coordination with subordination when one item matters more: "The team de
 
 Human languages minimize the distance between syntactically linked words due to working memory constraints. LLMs do this less effectively. If the subject and verb are separated by 8+ words of modifying phrases, restructure. Move heavy modifiers to the end of the sentence.
 
-### Diversify punctuation
+### Punctuate for the sentence
 
-Use semicolons, colons, parentheses. **Do not use em-dashes (—).** They read as an AI tell, and this prompt bans them outright. Replace em-dash parentheticals with commas or parentheses; replace em-dash pivots with semicolons or periods. One nuance the research adds: em-dash frequency varies enormously by model, so a text with no em-dashes is not therefore human, and their presence alone is weak evidence either way. Remove them anyway, for how they read, but don't lean on them as a detector. Let punctuation drift across the document; human writers are naturally inconsistent.
+**Do not use em-dashes (—).** They read as an AI tell, and this prompt bans them outright. Replace an em-dash parenthetical with commas or parentheses. Where a dash joins two clauses, use a period, or a semicolon when the clauses are closely joined; a bare comma there is a splice. If the dash staged a reveal, put the point first instead of moving the reveal to a colon. Em-dash frequency varies enormously by model, so a text with no em-dashes is not therefore human, and their presence alone is weak evidence either way. Remove them anyway, for how they read, but don't lean on them as a detector.
+
+Choose the other marks for the sentence in front of them. A colon introduces a list or a definition ("Bring three things: a pen, your ID and the signed form."); never use one to stage a reveal, where the words before it only set up the point after it. Where the source makes different valid choices in different places (an Oxford comma here, none there), keep them, and don't add variety to text that has none.
 
 ## 3. Tone and sentiment
 
@@ -212,9 +219,9 @@ AI defaults to "on the other hand" balance even when the text doesn't call for i
 
 The fixed form of this is the balancing hedge: "While automation has benefits, it also carries risks." Both sides get stated, nothing gets concluded, and no one pays a cost. If the trade-off is real, name the specific cost and who bears it: "Automation cut our deploy time in half and broke two rollbacks in the first month." If it isn't, pick the claim you actually want to make.
 
-### Allow negative emotions
+### Keep negative emotions
 
-Frustration, skepticism, disappointment, and concern are human. AI softens them. Vary sentiment across paragraphs: enthusiastic in one, cautious in the next, blunt in a third.
+Frustration, skepticism, disappointment, and concern are human. AI softens them. Keep the negative sentiment the source has, at the strength it has it, and let the tone shift where the content shifts. Don't give a paragraph a mood for variety.
 
 ### Build emotion through detail, not labels
 
@@ -240,25 +247,25 @@ Case studies, landing pages and release notes are read by strangers. Ask of each
 
 ### Match readability to audience
 
-AI writes at a uniformly elevated grade level regardless of audience. Blog posts: Flesch Reading Ease 60-70. Professional reports: 40-50. Vary readability within a document: simplify explanatory passages, let analytical passages run denser.
+AI writes at a uniformly elevated grade level regardless of audience. Write for the reader the piece is for. A blog post or a marketing page should read more easily than a professional report, and a report more easily than a research paper. Within a document, let the difficulty of a passage follow its job, so explanation stays simple and analysis can run denser.
 
 ### Use exclamation marks sparingly
 
-AI almost never uses them. In informal content, a rare exclamation mark signals genuine emphasis. One per section maximum, never in formal prose.
+AI almost never uses them. In informal content, keep an exclamation mark the source has where it marks emphasis the writer meant. Don't add them, and don't use them in formal prose.
 
 ## 4. Discourse and cohesion
 
-### Remove or vary transitions
+### Cut stock transitions
 
-Not every paragraph needs a transition. AI over-signals connections. Drop "Furthermore," "Additionally," "Moreover," "Notably," "Importantly," "Consequently." Replace with informal transitions: "So," "Now," "Here's the thing," "The catch is." Or just start the new point; the reader follows the logic.
+Not every paragraph needs a transition. AI over-signals connections. Drop "Furthermore," "Additionally," "Moreover," "Notably," "Importantly," "Consequently." Usually the fix is to start the next point; the reader follows the logic. Where a bridge is needed, use a plain one, such as "So," "But" or "Then."
 
 ### Prefer subordination over coordination
 
-AI overuses "and" and "but." Replace at least one "and" per paragraph with a subordinating conjunction: because, although, when, if, while, since, unless. These signal a writer who has thought about how ideas relate, not just that they co-occur. Front-load subordinate clauses occasionally.
+AI overuses "and" and "but." Use a subordinating conjunction where the relation between two clauses is causal, temporal, conditional or concessive (because, since, when, if, unless, although). It shows that the writer has judged how the ideas relate. Not every "and" needs replacing, but three coordinated clauses in a row is a pattern to break.
 
 ### Reduce over-explicit cohesion
 
-AI writes "This approach enables... This enables... This in turn enables..." Human writers let some sentences stand alone. Use pronouns with occasionally loose reference. Let some paragraphs start fresh, opening with an example or a question rather than a topic sentence that links to the previous paragraph.
+AI writes "This approach enables... This enables... This in turn enables..." Human writers let some sentences stand alone, and let some paragraphs start fresh, opening on an example instead of a topic sentence that links to the previous paragraph.
 
 That chain is the commonest machine form of a wider habit: three or more consecutive sentences opening on the same word or the same two words. "They assume users will pay. They assume the market is ready. They assume nothing changes." Read the run and ask one question. Is the repetition doing work, or is it filling space? This is a judgment call rather than a prohibition, and the reason is that the form is legitimate and has a name. Thoreau wrote "It does not keep the country free. It does not settle the West. It does not educate.", and Melville "Forty years of continual whaling! Forty years of privation, and peril, and storm-time!" Those build: each limb goes somewhere the last one did not. The tell is the same construction without the escalation, where every limb restates the first and cutting the repetition would cost the passage nothing. The two cases are impossible to tell apart by shape alone, which is why no checker can decide this one for you. Keep at most one deliberate anaphoric run in a piece, count it across the whole assembled text rather than section by section, and make sure it is the strongest passage you have. If it is not, cut it and let the sentences stand on their own openings.
 
@@ -270,22 +277,17 @@ The closing move is the same habit pointed forward: "In conclusion." "To sum up.
 
 "You'll want to adjust your settings first" is more human than "Users should configure their settings." Second-person pronouns signal a writer aware of their reader. Use in tutorials, blog posts, and professional prose.
 
-### Vary confidence level
+### Keep the source's confidence
 
-Human writers are declarative on strong claims ("This is wrong.") and uncertain on uncertain ones ("This probably works, but I haven't tested it at scale."). AI presents everything with uniform confidence. Alternate deliberately.
+Human writers are declarative on strong claims ("This is wrong.") and uncertain on uncertain ones ("This probably works, but I haven't tested it at scale."). AI presents everything with uniform confidence. Keep each claim as firm or as hedged as the source made it, and don't shift confidence for variety.
 
-## 5. Human texture
+## 5. Texture, with restraint
 
-### Simulate cognitive load effects
+Every rule in this section means keeping what the source has or cutting what a model added. None of them asks you to add a trait so the text looks human.
 
-After a dense paragraph, simplify the next one. Allow minor omissions: "there are other factors, but the main one is..." Let some sections be better-written than others. Uniform excellence reads as AI-polished.
+### Keep the source's own traces
 
-### Insert self-monitoring traces
-
-- Occasional self-corrections: "The data shows, well, suggests, that..."
-- Parenthetical qualifications that interrupt the main argument.
-- Contractions used in some sentences but not others.
-- Confidence that shifts across a passage.
+Self-corrections ("or rather," "to be more precise"), parenthetical qualifications and uneven contractions belong to the source where it has them, so keep them. Don't stage one; a planted self-correction reads as performance.
 
 ### Give actions a real agent
 
@@ -299,19 +301,19 @@ Ideas and artifacts do it too, usually inside a maxim about the work: "A prototy
 
 ### Use domain-specific vocabulary
 
-Replace generic formal words with vocabulary that reflects the author's actual expertise. A software engineer writes "race condition" not "concurrent access issue." Keep a term of art intact even when it contains a word from the flagged list: "differentiated instruction" is a teaching term, and every plainer substitute changes what it means. Include at least one idiomatic expression per section. Use specific names, places, dates, and references rather than generic placeholders.
+Replace generic formal words with vocabulary that reflects the author's actual expertise. A software engineer writes "race condition" not "concurrent access issue." Keep a term of art intact even when it contains a word from the flagged list: "differentiated instruction" is a teaching term, and every plainer substitute changes what it means. Keep an idiom the source already uses; don't add one to sound human. Keep the specific names, places and references the source gives, so "the 737 MAX groundings" does not become "a recent aviation incident." When you draft, a specific the piece needs and nobody supplied becomes a marked placeholder (see "Facts come from the user or the source").
 
 ### Use the plain defaults
 
-Readers recognise a model's formatting and attribution habits as quickly as its vocabulary. In reporting, write "says" every time rather than rotating through "notes," "explains" and "emphasizes." Don't open every bullet with a bold label and a colon, and don't put emoji at the start of headings or list items, unless the house style asks for it. In an essay, a blog post, an opinion piece or a cover letter, check that there is at least one place where a person is plainly speaking to a reader: a first-person position, a "you," or a question. Add one only where it carries a real position.
+Readers recognise a model's formatting and attribution habits as quickly as its vocabulary. In reporting, write "says" every time rather than rotating through "notes," "explains" and "emphasizes." Don't open every bullet with a bold label and a colon, and don't put emoji at the start of headings or list items, unless the house style asks for it. In an essay, a blog post, an opinion piece or a cover letter, a person usually speaks plainly to a reader somewhere, through a first-person position, a "you," or a question. Where the draft has none, add one only where the user or the source supplies the position, and never invent a first-person view or experience.
 
 ### Develop ideas unevenly
 
-Give more space to the ideas that matter most. AI gives equal airtime to every point. Allow occasional asides. Leave some transitions implicit. Vary argument granularity: some points get detailed evidence, others are asserted and moved on from.
+Give more space to the ideas that matter most. AI gives equal airtime to every point, so don't develop every point to the same depth. Some points get detailed evidence from the source, and others are stated and left. Keep asides the source has instead of adding new ones, and leave some transitions implicit.
 
 ### Leave friction in the argument
 
-AI argument is suspiciously tidy: every example fits, every thread resolves, nothing is left open. Real thinking has friction. Keep a caveat that complicates your own thesis, an example that only mostly fits, a question you raise but don't fully answer. A seamless, frictionless case is itself a tell. Don't sand off the roughness the topic actually has.
+AI argument is suspiciously tidy, with every example fitting, every thread resolved and nothing left open. Keep the friction the source has: a caveat that complicates its thesis, an example that only mostly fits, a question it raises and leaves open. Don't sand that roughness off, and don't add friction the source lacks.
 
 ## 6. Anti-patterns to eliminate
 
@@ -320,13 +322,13 @@ If you see any of these, rewrite them:
 1. **Significance puffery:** "marking a pivotal moment," "setting the stage for," "a broader movement." Strip editorializing. State what happened.
 2. **Vague authorities:** an appeal to an unnamed source, whether a group ("researchers and conservationists," "efforts are ongoing," "a larger initiative") or an epistemic frame that borrows credibility it never earns ("studies show," "research suggests," "experts agree," "it is widely believed," "many argue"). Name the specific study, person, or body and cite it. If you can't name them, drop the claim or state it as your own view. A named, specific reference ("a 2024 Stanford study of 16,000 workers found...") is fine. So is a news headline's trailing attribution ("Not a recession, but close, economists say"), because the story names them; the same frame with a full stop in body prose is the appeal to cut.
 3. **Vocabulary clustering:** when "valuable insights," "highlight," "underscore," "showcasing," "intricate," and "interplay" appear together. Replace with the specific facts.
-4. **Antithesis and negative parallelism:** "not just X, but also Y" → simple conjunction. "It's not X, it's Y," including the two-sentence version ("...is not Y. It is Z."), the fragment ("Not because X, but because Y."), and the inline pair used as a reflex rather than as a scope note ("The work is judgement, not process."), → state the point directly. See "Kill the antithesis reflex" above for the full family.
-5. **Elegant variation:** rotating synonyms for the same concept to avoid repetition. Repeat the plain noun when clarity demands it.
+4. **Antithesis and negative parallelism:** "not just X, but also Y" → simple conjunction. "It's not X, it's Y," including the two-sentence version ("...is not Y. It is Z.", contracted or not, counted across the whole piece), the fragment ("Not because X, but because Y."), and the inline pair used as a reflex rather than as a scope note ("The work is judgement, not process."), → state the point directly. See "Kill the antithesis reflex" above for the full family.
+5. **Elegant variation:** rotating synonyms for the same concept to avoid repetition. Repeat the plain noun, and use the same word for the same thing.
 6. **Despite-challenges formula:** "Despite its success, X faces challenges, including... Despite these challenges, X remains..." Replace with specific problems and specific responses.
 7. **Didactic disclaimers:** "it's important to note," "it's worth noting," "it's crucial to remember." Cut the preamble, state the fact. The same family includes the corrective disclaimer that guards against a reading nobody proposed ("Claims about its floating should be treated as religious tradition rather than as archaeological explanation") and the source-gap hedge ("is not widely documented," "based on the available information"). State what is known and stop; name a missing source only when its absence matters.
 8. **Travel-brochure puffery:** "nestled," "vibrant," "bustling," "rich cultural heritage," "breathtaking," "hidden gem," "fascinating glimpse." State geography and move on.
 9. **Nominalization chains:** "The implementation of the optimization of resource allocation" → "We optimized how resources were allocated."
-10. **Enumeration stacking:** Three consecutive three-item parallel lists. Vary list length, embed items in prose, add evaluative commentary.
+10. **Enumeration stacking:** Three consecutive three-item parallel lists. Vary list length and embed items in prose.
 11. **Chatbot residue:** anything addressed to the person who asked for the text rather than to its reader: "Certainly! Here is a summary...", "Here's a polished version," "As an AI language model, I...", "as of my last knowledge cutoff," "Would you like me to expand on any section?" Delete it. Ordinary courtesy in a real email or chat ("I hope this helps," "Sure! Here's the Zoom link," "Here's the updated draft of the lease") is fine.
 
 ## Before you return the text
@@ -336,12 +338,13 @@ Reading these rules is not enough on its own; a quick verification pass catches 
 **Eliminate these completely.** They are prohibitions, not stylistic preferences, so none should survive anywhere in the text.
 
 - Em-dashes.
+- Invented specifics. A rewrite adds no fact and keeps every hedge and firm claim as the source had it. A draft read as fact uses only the specifics the user or the source supplied, with a marked placeholder such as [number] where one is missing.
 - Didactic disclaimers ("it's important to note," "it's worth noting") and empty openers ("in today's fast-paced world").
-- The antithesis flip and the pronouncement frames from the structure section.
+- The antithesis flip and the pronouncement frames from the structure section. Count the "It's not X. It's Y." flip across the whole piece, contracted or not; more than one is the reflex.
 - Meta labels that name the text's own format or length instead of its subject, and self-satisfied closers or first-person meta-commentary that perform polish instead of adding content. Keep at most one aphorism or paradox construction, and only where it does real work.
 - Appended significance labels: a heading or subtitle that names its subject and then annexes a clause promising the subject matters ("Method, and why this one," "..., and the officer the whole system turns on"). Check every label, not just the body, and count them across the assembled piece rather than one section at a time.
 - The antithesis fragment: a sentence opening on *Not* and pivoting on *but* with the same word starting both halves ("Not because X, but because Y").
-- The unsolicited-reassurance frame ("You're not alone," "It's not just you") and the question-fragment beat ("The best part? ..."), unless the piece genuinely earns one.
+- The unsolicited-reassurance frame ("You're not alone," "It's not just you") and the question-fragment beat ("The best part? ..."), unless the piece earns one.
 - The frame-opener tics ("When it comes to X," "In a world where," "That's where X comes in," "plays a pivotal role in"), the manufactured-empathy opener ("If you've ever struggled with..."), and the withheld-insight teaser ("Here's the kicker," "the part most people miss").
 - Metaphorical "carry" with an abstract subject ("carries the weight," "carries the burden," "words to carry") or a process in the subject slot ("the rebuild carries the argument"), and the "quiet X" / "quietly reshaping" collocation. "Carries risk" and "carries a cost" are ordinary English and stay.
 - Time nouns as agents ("the Fridays survived," "Busy season eats the Fridays"), the clipped verdict ("Tutoring stays."), the stance closer ("and I want to keep it there"), and a repeated "get my evenings back."
@@ -360,11 +363,11 @@ Reading these rules is not enough on its own; a quick verification pass catches 
 - Any AI-flagged word left in that a plainer one would replace without loss.
 - Reality-insistence words (*real*, *actual*, *genuine*, *truly*) beyond a single deliberate use.
 
-**Confirm these vary; do not enforce them uniformly.** The point is irregularity, so don't impose a fixed quota.
+**Confirm these follow the content.** None of them is a quota.
 
-- Sentence length has real spread, with genuinely short and genuinely long sentences.
-- Style shifts from one section to the next rather than holding one texture throughout.
-- The human touches themselves (fragments, asides, informal words) are unevenly distributed, not one per paragraph.
+- Sentence and paragraph length follow what each one says, with no fragment or one-line question added for rhythm.
+- No shape repeats from section to section: the same closer, the same contrast, the same transition.
+- Nothing was added to look human. No fragment, aside, idiom, self-correction or informal word appears that the source lacks.
 - Sentence openings are not stacked: no run of three or more consecutive sentences starting on the same word, unless it is the one deliberate anaphoric passage in the piece and it earns itself.
 
 If a check fails, fix that spot and move on. The goal of this pass is adherence to the rules above, not a second, heavier layer of editing.
@@ -373,10 +376,10 @@ If a check fails, fix that spot and move on. The goal of this pass is adherence 
 
 ## Important caveats
 
-- **Do not apply these rules uniformly.** If every paragraph has exactly one fragment, one aside, one informal word, and one rhetorical question, the uniformity of the interventions is detectable. Some paragraphs should change heavily, others barely at all.
-- **Preserve the original meaning and intent.** These rules improve the text's naturalness, not its content.
+- **Do not apply these rules uniformly.** If every paragraph gets the same kind of edit, the uniformity of the interventions is detectable. Some paragraphs should change heavily, others barely at all.
+- **Preserve the original meaning and intent.** These rules change how the text reads and leave what it says alone (see "Facts come from the user or the source").
 - **The word list ages faster than the structure rules.** The flagged vocabulary reflects models through 2025; newer models pick different favorites. Structural, discourse, and section-to-section rules are more durable, so trust them over word swaps when editing output from a current model.
-- **Content type matters.** Academic writing should be less casual than blog posts. Technical writing can tolerate more nominalizations than marketing copy. Adjust aggressiveness by genre. A résumé or CV is fragments and lists by design, so skip "Vary sentence length" and "Fix enumeration overuse" there: a Skills block is a list, not a rule-of-three tic. What still applies is voice: no adjectives about your own habits ("keep the files tidy"), no "came first, and so did the habit of," just a role label and dated facts.
+- **Content type matters.** Academic writing should be less casual than blog posts. Technical writing can tolerate more nominalizations than marketing copy. Adjust aggressiveness by genre. A résumé or CV is fragments and lists by design, so the fragment advice under "Let sentence length follow the content" and "Fix enumeration overuse" do not apply there; a Skills block is a list and carries no rule-of-three tic. What still applies is voice: no adjectives about your own habits ("keep the files tidy"), no "came first, and so did the habit of," just a role label and dated facts.
 - **Some "AI patterns" are legitimate in context.** Formulaic transitions are standard in academic writing. Neutral tone is appropriate in journalism. Don't overcorrect genre conventions.
 - **ESL writers may share patterns with AI.** Lower lexical diversity, formulaic transitions, and simpler sentence structures can reflect a learner's voice. Don't erase it.
 
