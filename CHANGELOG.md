@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.17.1 - 2026-11-13
+
+Mirrors the humanizer's repair round, PR 2, which changed how the server's write, check and fix loop ends.
+
+### Changed
+
+- **The final check stays small.** "Before you return the text" now says to rewrite only the spot a check flags, run the checks once more, and stop after two rounds, matching the server's loop instruction.
+- **The copula rule sets no quota.** Three sentences in a row with "is/are/was" as the main verb now prompt a check for a stronger verb, where the rule used to require restructuring at least one. Not every copula should go, matching the server.
+
 ## 1.17.0 - 2026-11-13
 
 Mirrors the humanizer's repair round, PR 1. A review of the server's guide found it recommending forms its own checker flags, asking for quotas, and asking the model to perform human traits (fragments for rhythm, staged self-corrections, invented asides). This prompt carried most of the same advice, so it now matches the server's restraint stance: keep what the source has, cut what a model added, add nothing to look human.

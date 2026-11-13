@@ -185,7 +185,7 @@ Audit for auxiliary verb chains (is/are/was/were/has/have/can/could + past parti
 
 ### Reduce copula overuse
 
-AI defaults to "X is a Y that Z." Three sentences in a row with "is/are/was" as the main verb: restructure at least one. "The platform is a tool that enables collaboration" → "The platform lets teams collaborate."
+AI defaults to "X is a Y that Z." "The platform is a tool that enables collaboration" → "The platform lets teams collaborate." Not every copula should go. When three sentences in a row use "is/are/was" as the main verb, check whether one of them has a stronger verb available.
 
 ### Don't dodge the copula either
 
@@ -370,7 +370,7 @@ Reading these rules is not enough on its own; a quick verification pass catches 
 - Nothing was added to look human. No fragment, aside, idiom, self-correction or informal word appears that the source lacks.
 - Sentence openings are not stacked: no run of three or more consecutive sentences starting on the same word, unless it is the one deliberate anaphoric passage in the piece and it earns itself.
 
-If a check fails, fix that spot and move on. The goal of this pass is adherence to the rules above, not a second, heavier layer of editing.
+If a check fails, rewrite only the spot that fails it and leave the rest of the text as it is. Then run the checks once more, and stop after two rounds. The pass checks adherence to the rules above and adds no second, heavier layer of editing.
 
 ---
 
