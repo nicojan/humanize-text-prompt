@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.18.1 - 2026-11-13
+
+Mirrors the humanizer's code round for the parked items: fix texts that invited content the source does not give.
+
+### Changed
+
+- **The "carry" rewrite adds no success.** "The layout is what makes the argument land" claimed an effect the sentence never stated. The example is now "the layout presents the argument", and the label form states the plain fact ("the headline has eight words").
+- **Credibility rests on what is already there.** "The specifics carry that" now reads "the specifics already in the text make that case", so the advice does not ask for new specifics.
+
+### Checked, no change needed
+
+- The rule-of-three advice already keeps the source's count and adds nothing; this prompt never carried the server's old "drop to two, expand to four" fix. The comma-splice, maxim-closer and nominalization fix wording the server changed does not appear here.
+
 ## 1.18.0 - 2026-11-13
 
 Mirrors the humanizer's repair round, PR 3, a data-only cleanup of guidance that still asked the model to perform a human trait, set a quota, or give an example that adds a fact or changes a claim's strength. Hard violations in this file are unchanged at 5 (the self-referential quotations).
