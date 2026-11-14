@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.18.0 - 2026-11-13
+
+Mirrors the humanizer's repair round, PR 3, a data-only cleanup of guidance that still asked the model to perform a human trait, set a quota, or give an example that adds a fact or changes a claim's strength. Hard violations in this file are unchanged at 5 (the self-referential quotations).
+
+### Changed
+
+- **Lists keep the source's count.** "Vary list lengths: sometimes two items, sometimes four" is now "List as many items as the source has", in "Fix enumeration overuse" and in anti-pattern 10.
+- **Subordination ranks only what the source ranks.** The example "developing it took most of the time" added a fact. It now applies only if the notes say deployment was the hardest part.
+- **Strong positions keep their strength.** "'This approach has serious problems' is more human" hardened "certain challenges". The example now drops the euphemism at equal strength ("some problems worth looking at"), and conviction applies where the source holds the position.
+- **Emotion uses the source's detail.** "Build emotion through detail" no longer asks for intensity built with shorter sentences; it uses the detail the source gives, at its strength.
+- **Transitions name the stated relation.** "So" and "But" are no longer generic bridges, because they add a cause or a contrast. Use "And" or "Also" for an addition, "So" for a result, "But" for a contrast, "Then" for a sequence.
+
+### Checked, no change needed
+
+- Self-contradiction check against the server's removed phrases (loose pronoun reference, mixed registers, sensory language, front-loading, word-length and contraction mixing, "at least one" quotas, perplexity and burstiness targets, the invented AP-020 and AP-027 details). This prompt already carried none of them, or had already rewritten them in 1.17.0.
+
 ## 1.17.1 - 2026-11-13
 
 Mirrors the humanizer's repair round, PR 2, which changed how the server's write, check and fix loop ends.

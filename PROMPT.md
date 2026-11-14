@@ -197,9 +197,9 @@ The inflating variant pairs the substitute verb with an abstract noun that asser
 
 ### Fix enumeration overuse
 
-Three-item parallel lists in sequence are a strong AI signal. Vary list lengths: sometimes two items, sometimes four. Embed items in flowing prose rather than enumerating, and where the source ranks them, say so.
+Three-item parallel lists in sequence are a strong AI signal. List as many items as the source has, and never pad or cut a list to change its count. Embed items in flowing prose where they read as one point, and where the source ranks them, say so.
 
-Replace coordination with subordination when one item matters more: "The team designed, developed, and deployed the system" → "The team designed and deployed the system; developing it took most of the time."
+Replace coordination with subordination when the source says one item matters more. If the notes say deployment was the hardest part, "The team designed, developed, and deployed the system" → "The team designed and developed the system before deploying it, which was the hardest part." Rank only what the source ranks.
 
 ### Keep related words close together
 
@@ -215,7 +215,7 @@ Choose the other marks for the sentence in front of them. A colon introduces a l
 
 ### Don't flatten strong positions
 
-AI defaults to "on the other hand" balance even when the text doesn't call for it. Let positions be stated with conviction. "This approach has serious problems" is more human than "This approach presents certain challenges that merit consideration."
+AI defaults to "on the other hand" balance even when the text doesn't call for it. Where the source holds a position, state it with conviction and at the strength the source gives it. Drop the euphemism without hardening the claim: "This approach presents certain challenges that merit consideration" → "This approach has some problems worth looking at."
 
 The fixed form of this is the balancing hedge: "While automation has benefits, it also carries risks." Both sides get stated, nothing gets concluded, and no one pays a cost. If the trade-off is real, name the specific cost and who bears it: "Automation cut our deploy time in half and broke two rollbacks in the first month." If it isn't, pick the claim you actually want to make.
 
@@ -225,7 +225,7 @@ Frustration, skepticism, disappointment, and concern are human. AI softens them.
 
 ### Build emotion through detail, not labels
 
-Instead of "This was a deeply frustrating experience," show frustration building through increasingly specific detail and shorter sentences. Use emotion words sparingly but precisely.
+Instead of "This was a deeply frustrating experience," use the detail behind the frustration that the source gives, at the strength it gives it. Don't build intensity or shorten sentences for effect. Use emotion words sparingly but precisely.
 
 Two fiction habits are the same failure in miniature. One names a feeling as an inventory: "She felt a mix of pride and sadness," "a strange blend of relief and dread," "the weight of the unspoken." Show the two feelings through what the person does or says. The other reaches for the stock phrases nearly every current model over-produces: "her voice barely above a whisper," "his heart hammering against his ribs," "the air thick with the scent of," "a smile playing on her lips," "eyes never leaving her face," "casting long shadows." Two more from the same lists, "couldn't shake the feeling" and "a profound sense of," are everyday English outside fiction, so treat them as tells only in a story. Replace each with what this character in this scene would actually do or notice. Rename a character called Elara or Kael, and don't let a model's default names (Emily, Sarah, Dr. Chen) through unless the source gave them. And don't explain what a line has already shown: "He slammed the door. He was angry." loses nothing when the second sentence goes.
 
@@ -257,7 +257,7 @@ AI almost never uses them. In informal content, keep an exclamation mark the sou
 
 ### Cut stock transitions
 
-Not every paragraph needs a transition. AI over-signals connections. Drop "Furthermore," "Additionally," "Moreover," "Notably," "Importantly," "Consequently." Usually the fix is to start the next point; the reader follows the logic. Where a bridge is needed, use a plain one, such as "So," "But" or "Then."
+Not every paragraph needs a transition. AI over-signals connections. Drop "Furthermore," "Additionally," "Moreover," "Notably," "Importantly," "Consequently." Usually the fix is to start the next point; the reader follows the logic. Where a bridge is needed, use the plain word for the relation the source states: "And" or "Also" for an addition, "So" for a result, "But" for a contrast, "Then" for a sequence.
 
 ### Prefer subordination over coordination
 
@@ -328,7 +328,7 @@ If you see any of these, rewrite them:
 7. **Didactic disclaimers:** "it's important to note," "it's worth noting," "it's crucial to remember." Cut the preamble, state the fact. The same family includes the corrective disclaimer that guards against a reading nobody proposed ("Claims about its floating should be treated as religious tradition rather than as archaeological explanation") and the source-gap hedge ("is not widely documented," "based on the available information"). State what is known and stop; name a missing source only when its absence matters.
 8. **Travel-brochure puffery:** "nestled," "vibrant," "bustling," "rich cultural heritage," "breathtaking," "hidden gem," "fascinating glimpse." State geography and move on.
 9. **Nominalization chains:** "The implementation of the optimization of resource allocation" → "We optimized how resources were allocated."
-10. **Enumeration stacking:** Three consecutive three-item parallel lists. Vary list length and embed items in prose.
+10. **Enumeration stacking:** Three consecutive three-item parallel lists. List as many items as there are, embedded in prose where they read as one point.
 11. **Chatbot residue:** anything addressed to the person who asked for the text rather than to its reader: "Certainly! Here is a summary...", "Here's a polished version," "As an AI language model, I...", "as of my last knowledge cutoff," "Would you like me to expand on any section?" Delete it. Ordinary courtesy in a real email or chat ("I hope this helps," "Sure! Here's the Zoom link," "Here's the updated draft of the lease") is fine.
 
 ## Before you return the text
